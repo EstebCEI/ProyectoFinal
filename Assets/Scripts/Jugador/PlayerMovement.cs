@@ -14,7 +14,7 @@ public class PlayerMovementDynamicCrouchProne : MonoBehaviour
     public float proneHeight = 0.5f;
 
     [Header("Referencias")]
-    public Transform cameraPivot; // pivot de la cámara
+    public Transform cameraPivot;
 
     [Header("Gravedad")]
     public float gravity = -9.81f;
@@ -22,7 +22,7 @@ public class PlayerMovementDynamicCrouchProne : MonoBehaviour
 
     private CharacterController controller;
 
-    // --- Estados ---
+    // Posturas
     private enum Stance { Standing, Crouch, Prone }
     private Stance currentStance = Stance.Standing;
 
@@ -30,7 +30,7 @@ public class PlayerMovementDynamicCrouchProne : MonoBehaviour
 
     float ctrlHoldTimer = 0f;
     bool ctrlWasPressed = false;
-    float holdThreshold = 0.35f; // tiempo para considerar "mantener"
+    float holdThreshold = 0.35f; // tiempo mantener
 
     void Start()
     {
@@ -91,13 +91,11 @@ public class PlayerMovementDynamicCrouchProne : MonoBehaviour
 {
     bool ctrlPressed = Keyboard.current.leftCtrlKey.isPressed;
 
-    // cuando empieza a pulsarse
     if (ctrlPressed && !ctrlWasPressed)
     {
         ctrlHoldTimer = Time.time;
     }
 
-    // cuando se suelta
     if (!ctrlPressed && ctrlWasPressed)
     {
         float holdTime = Time.time - ctrlHoldTimer;
