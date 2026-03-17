@@ -15,6 +15,10 @@ public class PlayerShoot : MonoBehaviour
         // Mostrar mirilla apuntando
         if (crosshair != null)
             crosshair.SetActive(cameraSwitch.isAiming);
+        else
+        {
+            return;
+        }
 
         // Disparo
         if (cameraSwitch.isAiming && Mouse.current.leftButton.wasPressedThisFrame)
