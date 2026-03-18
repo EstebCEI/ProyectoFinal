@@ -1,26 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\",
+  "WorkspaceRootPath": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|c:\\users\\pvuu\\desktop\\daniel\\github\\proyectofinal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|c:\\users\\pvuu\\desktop\\daniel\\github\\proyectofinal\\assets\\scripts\\scriptableobjects\\weapons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\weapons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +46,117 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerMovement.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAswGEAAAAAAAAAAAAAAA==",
+              "Title": "Weapons.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T18:39:57.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CameraLook.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CameraLook.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Jugador\\CameraLook.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T16:52:52.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AimCameraSwitch.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAkwEQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T15:59:35.554Z",
+              "WhenOpened": "2026-03-17T20:02:31.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerShoot.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwA4AAAAkAAAAAAAAAA==",
+              "Title": "AimCameraSwitch.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAIwEcAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T19:31:55.136Z",
+              "WhenOpened": "2026-03-17T20:01:43.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "AimCameraSwitch.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwEQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:43:01.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "EnemyStationaryBehaviour.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAkwLkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:31:58.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T19:43:41.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CameraLook.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T19:43:59.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAswGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T18:39:57.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CameraLook.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T16:52:52.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T19:31:55.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EnemyStationaryBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwLkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:31:58.652Z"
             }
           ]
         }
