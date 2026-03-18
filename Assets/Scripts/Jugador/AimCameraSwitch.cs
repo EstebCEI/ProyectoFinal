@@ -1,5 +1,8 @@
-﻿using UnityEngine;
+﻿using NUnit.Framework;
+using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
+using UnityEngine.UI;
 
 public class AimCameraSwitch : MonoBehaviour
 {
@@ -22,6 +25,9 @@ public class AimCameraSwitch : MonoBehaviour
     [Header("Estado público para otros scripts")]
     public bool isAiming { get; private set; } = false;
     public bool isFirstPerson { get; private set; } = false;
+
+    public List<WeaponsClass> weapon = new List<WeaponsClass>();
+    public WeaponsClass currentWeapon;
 
     void Start()
     {
@@ -57,9 +63,22 @@ public class AimCameraSwitch : MonoBehaviour
         }
         else
         {
-            firstPerson.enabled = false;
-            thirdPerson.enabled = true;
-            playerModel.SetActive(true);
+            GameObject canvas = GameObject.Find("Crosshair");
+
+            if (isAiming)
+            {
+                canvas.GetComponent<Image>().enabled = true;
+                canvas.GetComponent<Image>().sprite = currentWeapon.crosshair;
+                thirdPerson.fieldOfView = currentWeapon.fieldOfView;  
+            }
+            else
+            {
+                firstPerson.enabled = false;
+                thirdPerson.enabled = true;
+                thirdPerson.fieldOfView = 60;
+                canvas.GetComponent<Image>().enabled = false;
+                playerModel.SetActive(true);
+            }
         }
 
         // Audio listener

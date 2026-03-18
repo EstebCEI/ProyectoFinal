@@ -3174,7 +3174,7 @@ GameObject:
   - component: {fileID: 1868295689}
   - component: {fileID: 1868295688}
   m_Layer: 5
-  m_Name: SniperCrosshair
+  m_Name: Crosshair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3206,7 +3206,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868295686}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -3219,7 +3219,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 26206d81b4c5cc24fbb148470a8c2209, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3422,6 +3422,10 @@ MonoBehaviour:
   cameraPivot: {fileID: 0}
   playerModel: {fileID: 1244586583}
   animator: {fileID: 0}
+  weapon:
+  - {fileID: 11400000, guid: 1cb9997db207f9346a57862354a2404f, type: 2}
+  - {fileID: 11400000, guid: 973de49b718ac8846aed73ad834ad01e, type: 2}
+  currentWeapon: {fileID: 0}
 --- !u!143 &1974900406
 CharacterController:
   m_ObjectHideFlags: 0
@@ -3498,8 +3502,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 959982dc99b8f154c89d3b6362684642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerShoot
-  aimCamera: {fileID: 1321077738}
-  crosshair: {fileID: 1868295686}
+  cameraSwitch: {fileID: 0}
+  crosshair: {fileID: 0}
   shootDistance: 100
 --- !u!1 &1978313832
 GameObject:
