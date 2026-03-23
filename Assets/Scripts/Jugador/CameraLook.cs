@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class CameraLook : MonoBehaviour
@@ -6,7 +6,7 @@ public class CameraLook : MonoBehaviour
     [Header("Sensibilidad")]
     public float sensitivity = 120f;
 
-    [Header("Rotaci�n Vertical")]
+    [Header("Rotación Vertical")]
     public float minX = -70f;
     public float maxX = 70f;
 
@@ -15,7 +15,8 @@ public class CameraLook : MonoBehaviour
     [Header("Referencia Player")]
     public Transform player;
 
-    public Vector3 offset = new Vector3(0.6f, 1.7f, -3f);
+    [Header("Referencia AimSystem")]
+    public AimCameraSwitch cameraSwitch;
 
     void Start()
     {
@@ -24,6 +25,8 @@ public class CameraLook : MonoBehaviour
 
     void LateUpdate()
     {
+        if (player == null || cameraSwitch == null) return;
+
         Vector2 mouseDelta = Mouse.current.delta.ReadValue();
         float mouseX = mouseDelta.x * sensitivity * Time.deltaTime;
         float mouseY = mouseDelta.y * sensitivity * Time.deltaTime;
@@ -31,8 +34,13 @@ public class CameraLook : MonoBehaviour
         xRotation -= mouseY;
         xRotation = Mathf.Clamp(xRotation, minX, maxX);
 
-        transform.rotation = Quaternion.Euler(xRotation, transform.eulerAngles.y + mouseX, 0);
+        transform.rotation = Quaternion.Euler(
+            xRotation,
+            transform.eulerAngles.y + mouseX,
+            0
+        );
 
-        transform.position = player.position + offset;
+        // 🔥 CLAVE: usar offset dinámico
+        transform.position = player.position + cameraSwitch.currentOffset;
     }
 }

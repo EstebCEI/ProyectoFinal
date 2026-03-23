@@ -1,8 +1,5 @@
-﻿using NUnit.Framework;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Collections.Generic;
-using UnityEngine.UI;
 
 public class AimCameraSwitch : MonoBehaviour
 {
@@ -10,11 +7,12 @@ public class AimCameraSwitch : MonoBehaviour
     public Camera firstPerson;
     public Camera thirdPerson;
 
-    [Header("Offsets cámara 3ª persona")]
-    public Vector3 normalOffset = new Vector3(0.6f, 1.7f, -3f);
-    public Vector3 aimingOffset = new Vector3(0.3f, 1.6f, -1.5f);
+    [Header("Offsets")]
+    public Vector3 normalOffset = new Vector3(0.6f, 1.5f, -3f);
+    public Vector3 aimingOffset = new Vector3(0.6f, 2.2f, -2f); // 👈 MÁS ALTA
 
-    public Transform cameraPivot;
+    [Header("Suavizado")]
+    public float offsetSmoothSpeed = 8f;
 
     [Header("Modelo del jugador")]
     public GameObject playerModel;
@@ -22,87 +20,110 @@ public class AimCameraSwitch : MonoBehaviour
     [Header("Animator")]
     public Animator animator;
 
-    [Header("Estado público para otros scripts")]
-    public bool isAiming { get; private set; } = false;
+    [Header("Estado público")]
+    public bool isAiming { get; set; } = false;
     public bool isFirstPerson { get; private set; } = false;
 
-    public List<WeaponsClass> weapon = new List<WeaponsClass>();
-    public WeaponsClass currentWeapon;
+    [Header("Rotación")]
+    public float playerRotateSpeed = 10f;
+
+    // 👇 ESTE ES EL OFFSET REAL QUE USARÁ LA CÁMARA
+    public Vector3 currentOffset { get; private set; }
 
     void Start()
     {
-        firstPerson.enabled = false;
-        thirdPerson.enabled = true;
-
-        SetAudioListener(firstPerson, false);
-        SetAudioListener(thirdPerson, true);
-
-        playerModel.SetActive(true);
+        currentOffset = normalOffset;
     }
 
     void Update()
     {
-        // Detectar inputs
-        isAiming = Mouse.current.rightButton.isPressed;
+        HandleCameraSwitch();
+        HandleOffset();
+        HandlePlayerRotation();
+        HandleAnimator();
+        HandleAudio();
+    }
+
+    void HandleCameraSwitch()
+    {
         bool switchView = Keyboard.current.vKey.wasPressedThisFrame;
 
-        // Cambiar entre primera y tercera al apuntar
         if (isAiming && switchView)
             isFirstPerson = !isFirstPerson;
 
-        // Reset a tercera persona si se deja de apuntar
         if (!isAiming)
             isFirstPerson = false;
 
-        // Gestión de cámaras
         if (isAiming && isFirstPerson)
         {
             firstPerson.enabled = true;
             thirdPerson.enabled = false;
-            playerModel.SetActive(false);
+
+            if (playerModel != null)
+                playerModel.SetActive(false);
         }
         else
         {
-            GameObject canvas = GameObject.Find("Crosshair");
+            firstPerson.enabled = false;
+            thirdPerson.enabled = true;
 
-            if (isAiming)
-            {
-                canvas.GetComponent<Image>().enabled = true;
-                canvas.GetComponent<Image>().sprite = currentWeapon.crosshair;
-                thirdPerson.fieldOfView = currentWeapon.fieldOfView;  
-            }
-            else
-            {
-                firstPerson.enabled = false;
-                thirdPerson.enabled = true;
-                thirdPerson.fieldOfView = 60;
-                canvas.GetComponent<Image>().enabled = false;
+            if (playerModel != null)
                 playerModel.SetActive(true);
-            }
         }
+    }
 
-        // Audio listener
-        SetAudioListener(firstPerson, firstPerson.enabled);
-        SetAudioListener(thirdPerson, thirdPerson.enabled);
+    // 🔥 CLAVE: calculamos offset aquí
+    void HandleOffset()
+    {
+        Vector3 targetOffset = normalOffset;
 
-        // Zoom en tercera persona
-        if (cameraPivot != null)
+        // 👇 SOLO subir cámara si NO es primera persona
+        if (isAiming && !isFirstPerson)
         {
-            Vector3 targetOffset = isAiming ? aimingOffset : normalOffset;
-            cameraPivot.localPosition = Vector3.Lerp(
-                cameraPivot.localPosition,
-                targetOffset,
-                Time.deltaTime * 10f
-            );
+            targetOffset = aimingOffset;
         }
 
-        // Animator
+        currentOffset = Vector3.Lerp(
+            currentOffset,
+            targetOffset,
+            Time.deltaTime * offsetSmoothSpeed
+        );
+    }
+
+    void HandlePlayerRotation()
+    {
+        if (!isAiming) return;
+
+        Vector3 forward = thirdPerson.transform.forward;
+        forward.y = 0f;
+
+        if (forward.sqrMagnitude < 0.01f) return;
+
+        Quaternion targetRotation = Quaternion.LookRotation(forward);
+
+        transform.rotation = Quaternion.Lerp(
+            transform.rotation,
+            targetRotation,
+            Time.deltaTime * playerRotateSpeed
+        );
+    }
+
+    void HandleAnimator()
+    {
         if (animator != null)
             animator.SetBool("isAiming", isAiming);
     }
 
+    void HandleAudio()
+    {
+        SetAudioListener(firstPerson, firstPerson.enabled);
+        SetAudioListener(thirdPerson, thirdPerson.enabled);
+    }
+
     void SetAudioListener(Camera cam, bool enabled)
     {
+        if (cam == null) return;
+
         AudioListener listener = cam.GetComponent<AudioListener>();
         if (listener != null)
             listener.enabled = enabled;
