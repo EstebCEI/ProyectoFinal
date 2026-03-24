@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\",
   "Documents": [
     {
@@ -37,6 +38,53 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\camera\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|c:\\users\\pvuu\\desktop\\daniel\\github\\nueva carpeta\\proyectofinal\\assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\scriptableobjects\\weapons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\weapons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\scriptableobjects\\weapons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\weapons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\jugador\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C531D86-F514-8865-5267-1058EFED5D33}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\assets\\scripts\\jugador\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -46,6 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -59,31 +108,161 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T20:02:31.803Z",
+=======
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Weapons.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-18T17:57:58.654Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerMovement.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T19:22:32.524Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< Updated upstream
               "Title": "AimCameraSwitch.cs",
               "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "ViewState": "AgIAADIAAAAAAAAAAAAIwEcAAABEAAAAAAAAAA==",
+=======
+              "Title": "FollowCamera.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\FollowCamera.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAUwIcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T18:41:12.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CameraLook.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T20:18:15.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Weapons.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T19:47:20.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAApwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T19:46:58.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AimCameraSwitch.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T19:44:23.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CameraLook.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\CameraLook.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-22T18:30:10.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAwwE0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-21T17:20:02.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAA1wJcAAAAFAAAAAAAAAA==",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T20:01:43.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AimCameraSwitch.cs",
+<<<<<<< Updated upstream
               "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+              "ToolTip": "C:\\Users\\PVUU\\Desktop\\Daniel\\Github\\Nueva carpeta\\ProyectoFinal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
+>>>>>>> Stashed changes
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAAkwEQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< Updated upstream
               "WhenOpened": "2026-03-17T19:43:01.74Z"
             },
             {
@@ -157,6 +336,9 @@
               "ViewState": "AgIAACgAAAAAAAAAAAAkwLkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T16:31:58.652Z"
+=======
+              "WhenOpened": "2026-03-19T13:28:17.776Z"
+>>>>>>> Stashed changes
             }
           ]
         }

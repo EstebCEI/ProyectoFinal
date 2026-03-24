@@ -37,6 +37,7 @@ public class PlayerMovementDynamicCrouchProne : MonoBehaviour
         controller = GetComponent<CharacterController>();
         m_Animator = GetComponentInChildren<Animator>();
         SetStance(currentStance);
+        cameraPivot = Camera.main.transform;
     }
 
     void Update()

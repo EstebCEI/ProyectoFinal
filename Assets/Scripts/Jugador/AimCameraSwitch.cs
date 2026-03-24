@@ -29,8 +29,13 @@ public class AimCameraSwitch : MonoBehaviour
     public List<WeaponsClass> weapon = new List<WeaponsClass>();
     public WeaponsClass currentWeapon;
 
+    public GameObject[] currentWeapon;
+    public bool isSniper;
+
+
     void Start()
     {
+<<<<<<< Updated upstream
         firstPerson.enabled = false;
         thirdPerson.enabled = true;
 
@@ -38,10 +43,38 @@ public class AimCameraSwitch : MonoBehaviour
         SetAudioListener(thirdPerson, true);
 
         playerModel.SetActive(true);
+=======
+        currentWeapon = new GameObject[2];
+        currentWeapon[0] = GameObject.Find("Pistola");
+        currentWeapon[1] = GameObject.Find("sniper");
+
+        currentWeapon[1].SetActive(false);
+        isSniper = false;
+
+
+        currentOffset = normalOffset;
+>>>>>>> Stashed changes
+    }
+
+    void ChangeWeapon()
+    {
+        isSniper = !isSniper;
+
+        if (isSniper)
+        {
+            currentWeapon[1].SetActive(true);
+            currentWeapon[0].SetActive(false);
+        }
+        else
+        {
+            currentWeapon[1].SetActive(false);
+            currentWeapon[0].SetActive(true);
+        } 
     }
 
     void Update()
     {
+<<<<<<< Updated upstream
         // Detectar inputs
         isAiming = Mouse.current.rightButton.isPressed;
         bool switchView = Keyboard.current.vKey.wasPressedThisFrame;
@@ -56,13 +89,37 @@ public class AimCameraSwitch : MonoBehaviour
 
         // Gestión de cámaras
         if (isAiming && isFirstPerson)
+=======
+        if (Input.GetKeyDown(KeyCode.P)) 
         {
+            ChangeWeapon();
+        }
+
+
+        HandleCameraSwitch();
+        HandleOffset();
+        HandlePlayerRotation();
+        HandleAnimator();
+        HandleAudio();
+    }
+
+    void HandleCameraSwitch()
+    {
+        bool switchView = Keyboard.current.vKey.wasPressedThisFrame;
+
+        if (isAiming && isSniper)
+>>>>>>> Stashed changes
+        {
+            isFirstPerson = !isFirstPerson;
+            isFirstPerson = false;
             firstPerson.enabled = true;
             thirdPerson.enabled = false;
             playerModel.SetActive(false);
         }
+
         else
         {
+<<<<<<< Updated upstream
             GameObject canvas = GameObject.Find("Crosshair");
 
             if (isAiming)
@@ -70,14 +127,35 @@ public class AimCameraSwitch : MonoBehaviour
                 canvas.GetComponent<Image>().enabled = true;
                 canvas.GetComponent<Image>().sprite = currentWeapon.crosshair;
                 thirdPerson.fieldOfView = currentWeapon.fieldOfView;  
+=======
+            if (isAiming && switchView)
+                isFirstPerson = !isFirstPerson;
+
+            if (!isAiming)
+                isFirstPerson = false;
+
+            if (isAiming && isFirstPerson)
+            {
+                firstPerson.enabled = true;
+                thirdPerson.enabled = false;
+
+                if (playerModel != null)
+                    playerModel.SetActive(false);
+>>>>>>> Stashed changes
             }
             else
             {
                 firstPerson.enabled = false;
                 thirdPerson.enabled = true;
+<<<<<<< Updated upstream
                 thirdPerson.fieldOfView = 60;
                 canvas.GetComponent<Image>().enabled = false;
                 playerModel.SetActive(true);
+=======
+
+                if (playerModel != null)
+                    playerModel.SetActive(true);
+>>>>>>> Stashed changes
             }
         }
 
@@ -96,7 +174,37 @@ public class AimCameraSwitch : MonoBehaviour
             );
         }
 
+<<<<<<< Updated upstream
         // Animator
+=======
+        currentOffset = Vector3.Lerp(
+            currentOffset,
+            targetOffset,
+            Time.deltaTime * offsetSmoothSpeed
+        );
+    }
+
+    void HandlePlayerRotation()
+    {
+        /*if (!isAiming) return;
+
+        Vector3 forward = thirdPerson.transform.forward;
+        forward.y = 0f;
+
+        if (forward.sqrMagnitude < 0.01f) return;
+
+        Quaternion targetRotation = Quaternion.LookRotation(forward);
+
+        transform.rotation = Quaternion.Lerp(
+            transform.rotation,
+            targetRotation,
+            Time.deltaTime * playerRotateSpeed
+        );*/
+}
+
+void HandleAnimator()
+    {
+>>>>>>> Stashed changes
         if (animator != null)
             animator.SetBool("isAiming", isAiming);
     }
