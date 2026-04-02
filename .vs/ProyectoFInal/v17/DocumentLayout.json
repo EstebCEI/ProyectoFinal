@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Weapons.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
@@ -47,7 +51,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "EnemyStationaryBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAgwLMAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T11:20:06.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CameraLook.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CameraLook.cs",
@@ -55,12 +72,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\CameraLook.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAAAC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-22T18:30:10.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-22T18:30:10.943Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
@@ -72,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
@@ -85,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AimCameraSwitch.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
@@ -93,8 +109,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAuwIIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T13:28:17.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T13:28:17.776Z"
             }
           ]
         }
