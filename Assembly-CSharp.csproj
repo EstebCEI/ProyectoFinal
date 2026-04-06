@@ -65,9 +65,15 @@
     <Compile Include="Assets\Scripts\Jugador\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Enemigos\EnemyStationaryBehaviour.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Enemigos\RagdollController.cs" />
+    <Compile Include="Assets\Scripts\Manager\SettingsMenu.cs" />
+    <Compile Include="Assets\Scripts\Manager\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Jugador\CameraLook.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Weapons.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameOverScreen.cs" />
+    <Compile Include="Assets\Scripts\Manager\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -78,6 +84,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
+    <None Include="Assets\TextMesh Pro\Resources\Fonts &amp; Materials\Descargados\MetalGear\READ ME!!!.txt" />
     <None Include="Assets\Tiny Teacup Studio\Military Base Pack\LICENSE.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />

@@ -17,6 +17,7 @@ public class PlayerShoot : MonoBehaviour
 
     private bool isAiming;
 
+
     private int currentAmmo;
     private float nextTimeToShoot = 0f;
     private bool isReloading = false;
@@ -114,7 +115,18 @@ public class PlayerShoot : MonoBehaviour
             EnemyAI enemy = hit.collider.GetComponent<EnemyAI>();
 
             if (enemy != null)
-                Destroy(enemy.gameObject);
+            {
+                RagdollController ragdoll = enemy.GetComponent<RagdollController>();
+
+                if (ragdoll != null)
+                {
+                    ragdoll.EnableRagdoll();
+                }
+                else
+                {
+                    Destroy(enemy.gameObject);
+                }
+            }
         }
     }
 }

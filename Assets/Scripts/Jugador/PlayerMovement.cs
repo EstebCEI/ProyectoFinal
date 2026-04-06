@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 
 [RequireComponent(typeof(CharacterController))]
-public class PlayerMovementDynamicCrouchProne : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [Header("Movimiento")]
     public float walkSpeed = 5f;
@@ -137,7 +137,10 @@ public class PlayerMovementDynamicCrouchProne : MonoBehaviour
 
     ctrlWasPressed = ctrlPressed;
 }
-
+    public int GetStance()
+    {
+        return (int)currentStance;
+    }
     void SetStance(Stance stance)
     {
         switch (stance)

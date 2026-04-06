@@ -1,0 +1,7042 @@
+fileFormatVersion: 2
+guid: 05d49aefbd59f6c40b0238bd5ad123b4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9828
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3e52b8f81f41743b7664205bbd6928
+      internalID: 554917032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_1
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 9828
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4e3c8324a857a4cbf32d74fb39f5ad
+      internalID: 319535561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_2
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 9828
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13098ac1940141048a11049c6cc6b7c4
+      internalID: 507824346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_3
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 9828
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8878ff7fdfd32874bab82cbd53691567
+      internalID: -1263694137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_4
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 9828
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e417784a9d85cd4e97da04344d2d28d
+      internalID: 1731718476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_5
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 9828
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca61695fc800f3418291df8a060e980
+      internalID: -128322952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_6
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 9828
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbc5c2f0552f515478b6a8208e306da2
+      internalID: -1004667913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9594
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb79d699556d4df48ae1819238ecc3f7
+      internalID: 1553752944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_8
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 9594
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d56ec1885eaffa4eb1126796919b38c
+      internalID: -2083837808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_9
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 9594
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520a77d37e661dc4795a2798c8909cdc
+      internalID: 1810500745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_10
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 9594
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5f4814f6bb03e4d8bd04d2f303e51b
+      internalID: -932349034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_11
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 9594
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e715978e21c1d0344a0f845d87f7bb39
+      internalID: -597239496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_12
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 9594
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6310e04eaad2904d93c5a53427df0d6
+      internalID: -631890395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_13
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 9594
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdca510efbb5430428abf1d3cf981c20
+      internalID: -2103819891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9360
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cbeb080e0912a4cb0a5f4e05841c02
+      internalID: -1862320339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_15
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 9360
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62122d2bd1cfaff41acf1ec2704055fd
+      internalID: -390503943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_16
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 9360
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f8ad2cf6812a5429a0626f187e091b
+      internalID: 1940655008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_17
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 9360
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfef3008b098ac34ea3560a3a6de6845
+      internalID: 255675739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_18
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 9360
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46d8e3635022be4f88119825a10f3ce
+      internalID: -1290999646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_19
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 9360
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e34b987a3898648ac0ad609c6c29b5
+      internalID: 1088043420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_20
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 9360
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b33b8b1ac4fe3c4ebdf53b0891ee248
+      internalID: 401784853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9126
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de26f03e7c45b62438f31f840dee23b0
+      internalID: -657070687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_22
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 9126
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b6a0e2a59a31a4a91fca95af24b469
+      internalID: 1082551436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_23
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 9126
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2766fd40badcc4c46a781a41f0cc67b1
+      internalID: 1166274752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_24
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 9126
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5e3e50ed4ca2b4ba4d800dd4f76d4c
+      internalID: -1602668882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_25
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 9126
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb49ab2bcb595444a009c68da0073bc
+      internalID: 1323881400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_26
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 9126
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16cd89d9dc5ea54da50e21a3a5371b5
+      internalID: 1380942543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_27
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 9126
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3702f24beeb417440a6a8a33de8b9c7b
+      internalID: 1017894124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8892
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47b64f915c19cc43ad19067ed06b5d0
+      internalID: -1236939878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_29
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 8892
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4419c518fffb734478dacd6ce85ac527
+      internalID: 1675168998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_30
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 8892
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792eef7cc7b90d445a3b666ccf707b46
+      internalID: 1016216842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_31
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 8892
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db5691526564c94c8a464bc5b3e3e77
+      internalID: -250441503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_32
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 8892
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a1a0a5301c0e644b6d8253b411257e
+      internalID: -1894514432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_33
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 8892
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f9b555e5d1a4f4ab0cbec0c263558d
+      internalID: 310485024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_34
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 8892
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a970d24cc73ef4b88a82f4d13c9178
+      internalID: 1972488740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8658
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838f46d174f090846bf0fe4a9eb09b54
+      internalID: 191512200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_36
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 8658
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c123f7aaebda529418d1ecc7fe8281eb
+      internalID: -91092416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_37
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 8658
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8e5049b1aab334cb6ef38c13af8335
+      internalID: -1732980134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_38
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 8658
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bfe014f68eb5a4197810c0a136fecf
+      internalID: -66192752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_39
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 8658
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e3c5290b3c25241b105839028f86bf
+      internalID: 1247700449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_40
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 8658
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2535c3134488b47b54db9b1aecf4eb
+      internalID: -260140350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_41
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 8658
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d308b5d7d642642ad2f204a5815e8b
+      internalID: 421460147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8424
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e364de889d3b7642b3278f0f7a46dde
+      internalID: 1554017304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_43
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 8424
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc496cc4c280fb746b3234c409bb0c2a
+      internalID: 2119358017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_44
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 8424
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dd78eafee7d48479ce36c10faffd40
+      internalID: 132693226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_45
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 8424
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87334d12ae4683748a443500f2d81328
+      internalID: -1387571371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_46
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 8424
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f53231c741720e468bf101a81fc5da8
+      internalID: 874397578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_47
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 8424
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962515af155dd14e8cd4037abc7cbee
+      internalID: -1110604609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_48
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 8424
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9182517de24b9438e67ca306e9b174
+      internalID: 839557933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8190
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9316f34af8eb7b84dbeafa24c8ecd1a2
+      internalID: -1294262049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_50
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 8190
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e8f48822f10e747b95124aefe04dd2
+      internalID: -472206528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_51
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 8190
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66beb99c09638e5469b767ae93668d41
+      internalID: -1438714295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_52
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 8190
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7cd694b92a1d7469f6515965c6c855
+      internalID: 1111643132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_53
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 8190
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b2f5fefeb22144bbbad236f8fb627f
+      internalID: -551299455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_54
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 8190
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f46642d98cd97e41976b19376c90617
+      internalID: 56297612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_55
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 8190
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883aaec058c16124183532aeebd44a4e
+      internalID: -727975338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7956
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9feae74465bf54a89c889d9d599df3
+      internalID: 2009664453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_57
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 7956
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338d663ccf6d39c4facdad53d53c9d7d
+      internalID: 1417410973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_58
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 7956
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e58708e49959cf4690112b8b523cb6c
+      internalID: -795225071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_59
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 7956
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66da02584e92521498edcb0367209422
+      internalID: 334263737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_60
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7956
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ea4660da95d9f47842cbf1c17adb55
+      internalID: 430497057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_61
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 7956
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38bea4df5db84a4b8698255b35d70e2
+      internalID: 592051309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_62
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 7956
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee402eaed56ab2149a21b8d5a661a3cb
+      internalID: 1165053892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7722
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b26edc60e4e3e45bed94409ef54ca0
+      internalID: 872392063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_64
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 7722
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8d75b170c97f349924d0723e2572b5
+      internalID: -1388362709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_65
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 7722
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a62be875faf45f43a9a5e8498bbf263
+      internalID: -38194574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_66
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 7722
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec743350d8a5a9548b7a029aa14a83c5
+      internalID: 346435393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_67
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7722
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11dfcf5d96592ac478c8bf0fd086ca91
+      internalID: 64645194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_68
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 7722
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ff496d6d03f564696b3c7dcc2d6e1a
+      internalID: 1047420662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_69
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 7722
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edab9ffd063e81a4aaca474cd873773e
+      internalID: 1117898745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7488
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15120524512b09243a1348509ed13501
+      internalID: -692851034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_71
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 7488
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5adb6632a32e80a4685f99cb53ab6fb1
+      internalID: 772467952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_72
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 7488
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194f473e794ec4d48ab6623549c73384
+      internalID: 310687222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_73
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 7488
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a83ec62ec74b14dbe1603b07254514
+      internalID: -1782701200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_74
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7488
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502b4ee863701a1479846bf19a5e3138
+      internalID: -1473075387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_75
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 7488
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13310fb27cf9e504a90ec136955725da
+      internalID: -1782440431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_76
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 7488
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173ba78b76b2a3441919272cc8e27cec
+      internalID: 139717419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7254
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5a453715ab5eb409029a6df3147ab4
+      internalID: 1895341379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_78
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 7254
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79714963220fb0349aaabcf6c220682b
+      internalID: 1007206528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_79
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 7254
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6b69a1485ca9b45839c1efdeef9ad7
+      internalID: 2072968735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_80
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 7254
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2eb5cc3d242c843881e34617995b20
+      internalID: 2064809223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_81
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7254
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fa7327bce857a458fadff3eaad64c1
+      internalID: -1972786104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_82
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 7254
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2dc701e71a0bb54c8714d269f0a601b
+      internalID: -74324256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_83
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 7254
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9bbb9475eff3842acec52583e2a91c
+      internalID: -1663796705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7020
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83914ea353d3cf146861959f74bf5fd3
+      internalID: -18899708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_85
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 7020
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a225d36b0c298094891e29906fe2c3c0
+      internalID: -1696958836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_86
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 7020
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2bb73d9b465a94b90b24df6a17b091
+      internalID: 1461197830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_87
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 7020
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c2c62a07aa6f944a439eb2464dc9e3
+      internalID: 1384272844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_88
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 7020
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9502ec400ed35074ca2ccf243de4e753
+      internalID: 416905338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_89
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 7020
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad92a5dadd6ab2043aa1ca9adeab5b12
+      internalID: -1104197939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_90
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 7020
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcef99d957145449b190a10c063da32
+      internalID: 1718218628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6786
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7315730cd278a84fb0de1dbee490e97
+      internalID: -1356366341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_92
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 6786
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a87e5285db51ed46b0d91a00759098c
+      internalID: 324885670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_93
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 6786
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8166f4622577565418c3a19f45df0c1b
+      internalID: 2003315027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_94
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 6786
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6075c30aebb8c154aa360e044532c322
+      internalID: -1387331194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_95
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 6786
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1145152285742cd47bfbd1e8d4e92ba6
+      internalID: 138384307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_96
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 6786
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1962da93cd596524192828bf19768dba
+      internalID: 745800445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_97
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 6786
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23cb39d96d3ae4d46ae903304fc8d207
+      internalID: 27482486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6552
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af569a564140e954faaa60a31954654a
+      internalID: 1832746972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_99
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 6552
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc3d55b121919d45bb7bd7b2bc09ca4
+      internalID: -2015572439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_100
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 6552
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2ea75b1f87a204ba4c310cfafad570
+      internalID: -1423074415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_101
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 6552
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6cc0d39312f28f4ca50c72b10a54373
+      internalID: -1195057016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_102
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 6552
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9f3f37e8f8ef24fac082c97ed92b56
+      internalID: -1962514745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_103
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 6552
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2f2e1304f7b3c45b6ed1946844ec12
+      internalID: 1399003405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_104
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 6552
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e322cba34f53fad41a408b7884e087ea
+      internalID: -943439033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6318
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c4a6e20bfc0bd48a2614995cbd4fbe
+      internalID: 40370846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_106
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 6318
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6533e0cfbeea6a34a95c5205cbf68422
+      internalID: -548957677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_107
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 6318
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52e2512e957b94da105a190545ba9b
+      internalID: 639897706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_108
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 6318
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0746a1ad417eef246ad8efe42f961ebf
+      internalID: -829256264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_109
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 6318
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca25f67f025b3c84a86247d6a9033776
+      internalID: -1878481228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_110
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 6318
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97314f2054463b84c95b8c08a0793501
+      internalID: 472954310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_111
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 6318
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d865915ee83214397b75c2ce620803
+      internalID: -1868668658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6084
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c7f697ace905f488d4c56ff457cddb
+      internalID: 262904204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_113
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 6084
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9834a8893b1dfcb40bb1a5fab3199487
+      internalID: -733950563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_114
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 6084
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29871cb16906c8b469419985c1767a87
+      internalID: -578617202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_115
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 6084
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20fed4a2123dbc448159f4769a6eb7f
+      internalID: -968444343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_116
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 6084
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34e6c62e90398643ab00e7d9accc95e
+      internalID: 1460764767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_117
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 6084
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8248e4df2e337e646b5472fb21472b8f
+      internalID: 1856747606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_118
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 6084
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e0e48eb36c0d440962f6b81f4f365c
+      internalID: -1381639147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5850
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1344dd703c8450d4790f553b77564b6d
+      internalID: -505408502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_120
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 5850
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1f3b208dd370745bbea1c0c7f2da9e
+      internalID: -876352392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_121
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5850
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72fa8d18aa86234d8b0a4648d6d00f6
+      internalID: 1312951592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_122
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 5850
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37aa3b53eaf1fb4f85d81a77dca4495
+      internalID: -162042162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_123
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 5850
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0cf394d6a201c41a6b3577215c5ce8
+      internalID: -1781025068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_124
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 5850
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643ec768badc646469e6500ee415529c
+      internalID: -1424380603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_125
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 5850
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88c764d7a9c5d3d46b2bd4920fd975d1
+      internalID: 188581308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5616
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3054b22a8ca6848ba4922448818654
+      internalID: -1785706661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_127
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 5616
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3371c8b56c11764c8bd783c3bf44c5b
+      internalID: 485160693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_128
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5616
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eab269d427b6c945aa991f2d5d1d012
+      internalID: 1283549914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_129
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 5616
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef08572bc026b6409a2ff3d95be94fb
+      internalID: 1099594258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_130
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 5616
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5bad8d2b37aa742b8d30949bc9d36a
+      internalID: -116478326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_131
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 5616
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0da43f770050ad469bdbadba78c5d9b
+      internalID: -765947718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_132
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 5616
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba89d2206b248554a95ae4b1525bf731
+      internalID: 2139972598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5382
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71f07387cca8a245a9dcfd2718c60fb
+      internalID: 319996469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_134
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 5382
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011e569c5d197494eaf86414bfedec37
+      internalID: 2146189016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_135
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5382
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d61ecb9e080c56488c690a832b1aab5
+      internalID: 867531023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_136
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 5382
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d76c411727bce4699a0159d1bd5818
+      internalID: -1780097370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_137
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 5382
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e8957e1be80ba46b4b077a1885cbd8
+      internalID: -1540665484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_138
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 5382
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ebce91643b2da41a8a5236f0a47195
+      internalID: -816875337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_139
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 5382
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1e14e093728314a899c894c63a7f68
+      internalID: 381771613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5148
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e319f1e45bdbe4faba0fa5b6e630a7
+      internalID: -1149058806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_141
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 5148
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f0addd219040e74e896c670e6d30af8
+      internalID: -220421465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_142
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 5148
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762f171ee54f16f40ae4bc6072b00ec2
+      internalID: 1302378794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_143
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 5148
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833c7ede3da058e498d8ee5dfb38e42e
+      internalID: -1595019407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_144
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 5148
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b45619b9c9e524791799b5ce4eb039
+      internalID: 1017922819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_145
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 5148
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac6c0e56dc80514cb7c933f0d98a3f4
+      internalID: -1979196528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_146
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 5148
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2047a6c9f8d51cd4dae2b5e045d27401
+      internalID: -166165544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4914
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedcd27bef3ab3548b10392c33e6666c
+      internalID: -1935493897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_148
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 4914
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ada7ee3b80edd1e4ea295e927460b295
+      internalID: -99907445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_149
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 4914
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cde3e7e7b61608469eec508c7f1de78
+      internalID: 216012587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_150
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 4914
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309a85a2b5a521248a795a9ca7ecad86
+      internalID: -48331922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_151
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 4914
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad061df4f143bc45b8949c3de7ee9af
+      internalID: -634029872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_152
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 4914
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d270db4743a224cb928296e0a22973
+      internalID: 2139548550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_153
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 4914
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb0d9a59870f684a9710131da1ea406
+      internalID: 1469074179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4680
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484b7f942d851674db6a1e0c2b8ba4fb
+      internalID: 1639635781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_155
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 4680
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42cbab10ca8104240b3d0e38830c8743
+      internalID: 1805698736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_156
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 4680
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d36bdcaa7751348bc12bd396c90eda
+      internalID: 1757453350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_157
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 4680
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f72a93f564a9e4a8f17173393676c3
+      internalID: 585841426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_158
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 4680
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa85f586f9ca5b4f94612984e931b53
+      internalID: -182316400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_159
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 4680
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d029c74367fd7474b8b4f09903fb04a0
+      internalID: 395502280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_160
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 4680
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6497e9fb97e7042a0cbdf65d240827
+      internalID: 1649737639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4446
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb8f2dc1382943418885e76ddde0839
+      internalID: -1936224822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_162
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 4446
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75f586856c1a9f489bf3b418164d4b5
+      internalID: 1352369690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_163
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 4446
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e514a62f5c626f4699c9c79556aaeef
+      internalID: -1939136583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_164
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 4446
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ab651a27a7b094986b5698f5f37241
+      internalID: -185175044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_165
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 4446
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84de9c715e1368c49b804f2f8eb43074
+      internalID: -1996202632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_166
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 4446
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abec571bd0c4d3c478a84c0f700c9b20
+      internalID: -1551327261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_167
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 4446
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2512b4ead64e4aa4c91ce43b01a85d35
+      internalID: 1372304971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4212
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78787837a19bc848860bbf5f36f2960
+      internalID: 106509155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_169
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 4212
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963dd138792317140a47a52535ddb69e
+      internalID: 511307233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_170
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 4212
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb44046ff170c24fb0f9018017dc208
+      internalID: -1291389540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_171
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 4212
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386361e8b93bc5b43b5ba0273b58fb72
+      internalID: 1497891840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_172
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 4212
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46925327987636f438bb4441669aae3a
+      internalID: 1311083988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_173
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 4212
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee4ada7b3806ce40a6f3bf26b8c4d85
+      internalID: 38320848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_174
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 4212
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0b0ae24442e43449be7695815ddf36
+      internalID: 1756588582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3978
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975a868ee85481d4396f65a931cf87dc
+      internalID: -2089638369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_176
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3978
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a49650d8d4d4644a392d0a639c53bc
+      internalID: -1550581770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_177
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3978
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e28834d05696c3b41b4cc8a479fdbad6
+      internalID: -808576519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_178
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3978
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444a0714168fc824bb76bf19814a759b
+      internalID: -555390150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_179
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3978
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ba62903bba2ed4785fb053833d61bf
+      internalID: -2123614276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_180
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 3978
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883acd6b3c6efc2489883a7c18894b68
+      internalID: 1895954122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_181
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3978
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec2b47406cc84e4cbf209c6ccebd57e
+      internalID: 867692017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3744
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb7509c91df4b3469926490357d679a
+      internalID: -757218834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_183
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3744
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c37aaa65f0443544a989ba0cba26869
+      internalID: 1920169639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_184
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3744
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5045210a75ae0146b35403ec879ea5b
+      internalID: -1582474293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_185
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3744
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02b98603f156cb489bd18efdfc14152
+      internalID: -278492414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_186
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3744
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946d66a7258db224fba817aa4a3484bd
+      internalID: -1951857264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_187
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 3744
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5225cd58f8b2314aab9ebb03ff1dcd4
+      internalID: -1424877083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_188
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3744
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e42653092d3e1438fa21bad4ac3460
+      internalID: -845498908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3510
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a866ca7f558ac4fb097771c7fa5111
+      internalID: 1642515980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_190
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3510
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149ad191ef73d5a4e827b3adb6d4e49d
+      internalID: -1854900946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_191
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3510
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 026dd6c4e623d5947a7ea89a28ff0ba5
+      internalID: -1082455905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_192
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3510
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff043802b9767d4f84a27d812b6fa4d
+      internalID: 2080861761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_193
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3510
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ad9a7828e5a9945b03dbaea232c8ee
+      internalID: 662727814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_194
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 3510
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba0d0688ddc3364a89590db832461f6
+      internalID: -1346971856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_195
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3510
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2686a7d106005284fa04cd333601ca08
+      internalID: 1901125306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_196
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3276
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba96dd11461c8748b163340610e724c
+      internalID: -1228653417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_197
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3276
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85d151e2a58d6024f9f3fd65dc44ebe4
+      internalID: -954416212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_198
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3276
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b79c443ee09a0a4da0db0f28df1240f
+      internalID: 532542583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_199
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3276
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07cd145a6c038b048af8803a5d4eda06
+      internalID: -102965877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_200
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3276
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a449a37849feb4387444e2ff604348
+      internalID: 1002519981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_201
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 3276
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e02dc88b9d9e914db262cad23dbfdb7
+      internalID: -1288218449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_202
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3276
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcbc4a0eba4750479a1d5348c675434
+      internalID: -1019997331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3042
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5026e28d7c776bb49b8fa4554bb11b23
+      internalID: 1151134143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_204
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 3042
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a6b1e9c9ebcef428e775fb5f4b5ca7
+      internalID: 2023140152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_205
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 3042
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678f7d9bfac0cb34594a1c4052080fe3
+      internalID: 445506381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_206
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 3042
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2138208cee1ddf242ba7ccc5633d9f26
+      internalID: 734329336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_207
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 3042
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd40d98f72de1a45875a6b8727cadb3
+      internalID: 1563679131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_208
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 3042
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e6cbd75dddb534896ab3e2d02dcbb6
+      internalID: 963927656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_209
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 3042
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f2da7878a081d45905947ae6abd9a4
+      internalID: 413072416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_210
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2808
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c72ec4a1fd067049a67a801abee1396
+      internalID: 1253190773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_211
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2808
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e67e7b98a9833f4fbe1ddcc3ca8c15a
+      internalID: -560692654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_212
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2808
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 628405a2541683047a601a636c679dd3
+      internalID: 993781294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_213
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2808
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038b3af1ec2875847b23224489196b73
+      internalID: 358608837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_214
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2808
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5e1158d7026c84595da5ba36abe9f7
+      internalID: -1835760299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_215
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 2808
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a47ae505d800f41a8853a2ed712605
+      internalID: 1311167216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_216
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2808
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8483f542bffc016489ec6f27bd3cf572
+      internalID: 96957752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_217
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2574
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df659d2dda108241864b5a8626a663a
+      internalID: -651516508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_218
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2574
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad7f522b54cf054e8846e3bf3eb456b
+      internalID: 759732418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_219
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2574
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a12ddd2572c28409ded3119966bcbd
+      internalID: 841473554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_220
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2574
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb89dfb755135948bc4ac9a7cfddc37
+      internalID: -83860227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_221
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2574
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4b4a4cd92598547a3fd19788a7be60
+      internalID: -1208515152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_222
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 2574
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2131fcf8e4a384ea6bf7c738391e92
+      internalID: -1593105209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_223
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2574
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15a566e61795e14aa8695300e44ad92
+      internalID: -441583089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2340
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae00d425ca05d44a7e22843aac5d35
+      internalID: -768786534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_225
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2340
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfb340993fd77545ae135725b05116b
+      internalID: -1756302768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_226
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2340
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff7acb6a0380dc4ca0590c17742ac00
+      internalID: 1054499854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_227
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2340
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49a3bf76ed6881498c627290dfeacc1
+      internalID: 149905877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_228
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2340
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7375642afaa19f4788fea5ff858d152
+      internalID: -2139093937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_229
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 2340
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaf07f4dc818354ab6d19abe70e52a5
+      internalID: 325449717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_230
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2340
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ddd105fd9fddb140b146a6f7d38d6bb
+      internalID: -21159364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2106
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04126b8dc6f79c4d85f374729a7cb32
+      internalID: -2138240147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_232
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2106
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985593c2807e4e347b7954c6fbebdbde
+      internalID: 798455849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_233
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 2106
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c3acbc723777e48b05ba5dfaaf1d9d
+      internalID: -2036770139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_234
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 2106
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa0638de0ffb6f49a8cb7ae8d7ed5db
+      internalID: 1017763257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_235
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 2106
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20fc07caaa2d00478e38ff94e265e70
+      internalID: 1298503662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_236
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 2106
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1ea6a7ff27f994ca46f8988e6a0db2
+      internalID: 45619761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_237
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 2106
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d24ca4aed82646bc58ffc636b5ccd
+      internalID: -866695811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1872
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e29d6f387da9b4ea5a36eb2e9f20e6
+      internalID: 2090600773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_239
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1872
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd532a0ebe9315449af31fed48c1f9b
+      internalID: 144212428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_240
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1872
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f377c364cb2e5748bf995ee2f6165f5
+      internalID: -2111731065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_241
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1872
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05a3da2995894548a6a3a8ee7191875
+      internalID: 339289862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_242
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1872
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c523371b2839944cab2379d8156627d
+      internalID: 1255114775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_243
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1872
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6bdf38a7977a94996df11d1de4b817
+      internalID: 825258975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_244
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1872
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c7c85815c839b4b83729793b0a16f5
+      internalID: 671809606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_245
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1638
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565f0712f6154cb4da4325d52fd5c456
+      internalID: 1312619373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_246
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1638
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d888d1bd27c8b4a8a7d81ece37aa94
+      internalID: -416109932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_247
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1638
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63116145e7cd7e340b6072a55346b82b
+      internalID: -836628347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_248
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1638
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b27ddfdf8daf44db75b08b40f19e50
+      internalID: 1010903258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_249
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1638
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c712b7ca264a63d4b9d003cde4278843
+      internalID: 1258883239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_250
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1638
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8ba8359ec3a6446bbe9aeb3081789b
+      internalID: -37752863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_251
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1638
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719bb240b3093e542a639ee285403dd9
+      internalID: -395042798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_252
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1404
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e593ec10a7b40ea40972ce9280172d19
+      internalID: 61373284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_253
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1404
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbb45518af1a754b8537290bdc190c0
+      internalID: -945336193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_254
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1404
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a106e41686c0ec45ab8432c0dfc64b7
+      internalID: -1691349473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_255
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1404
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf6042da936c8b41b3b59dc5b6859b6
+      internalID: -2105825997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_256
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1404
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5551cb9ac169c244b63a6a0f716cad0
+      internalID: 1352879298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_257
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1404
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 810a006284ee77e4083fe0d7e3eb09e3
+      internalID: 1790153550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_258
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1404
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a787f295c1a5c489c7f919d2e32873
+      internalID: 305522358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1170
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c125291cb40e5c40a032a31d4393778
+      internalID: 465245337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_260
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 1170
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053431681f6221e4d80661075ec9cb20
+      internalID: -1980059387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_261
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 1170
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651f2a13a16331240a8d892ad64c8e16
+      internalID: 1191681449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_262
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1170
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3364674774235974bb4d740499d3870e
+      internalID: 1922098614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_263
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 1170
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e350c6fc6bbe13b489a3cbab57d5c06b
+      internalID: -1525004195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_264
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 1170
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3de04058b564ff4e88874c390ff04e1
+      internalID: -1837725227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_265
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 1170
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0227fadd5219f44abe3c91f8e3d326e
+      internalID: 990535652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_266
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ebda5f652b78b5429bb6f373537bd22
+      internalID: -1264830044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_267
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 936
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241731d16187b4a458a182fbcd71f63d
+      internalID: -1293396007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_268
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 936
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6c5517bee411a4c96e87b65a00519e
+      internalID: 1731964328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_269
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 936
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36d9fd7df180a148b36c51f1df34ad6
+      internalID: 1601194605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_270
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 936
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7d1c04930ed1f4c899feb45b9af080
+      internalID: 1109500178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_271
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 936
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d26b7e54b8a3348833999e6fec486e
+      internalID: 981489960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_272
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 936
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bfaa2641b101c42aed9037a50206bc
+      internalID: 914833015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_273
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 702
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3996ed8de6feb449a64d860716e0f7
+      internalID: 2085210331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_274
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 702
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bc09d624c1f6249813a7c38ea352b5
+      internalID: -1268958854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_275
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 702
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480f776f541721349b9eece3a7615e54
+      internalID: 692782926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_276
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 702
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2528ac2568b6094c9d695612e611498
+      internalID: 731778233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_277
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 702
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8cc9b893e0b3e4eb5c14fb874600fd
+      internalID: 1472885957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_278
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 702
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f92252dd8281bb429f87ede7ee90d41
+      internalID: -1355205764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_279
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 702
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b161059e1a29de14d814651e12a27ed2
+      internalID: 533337934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_280
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 468
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bf8197a0f03d04fbae506e732f5230
+      internalID: 1828322711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_281
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 468
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f31f8eb210fe8740995e1a42f6310ab
+      internalID: -651479600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_282
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 468
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c7809fed4f24442853757a2308d5c5
+      internalID: -1618060996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_283
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 468
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d7c122fdc48b641b01c2e777c15c39
+      internalID: 767855108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_284
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 468
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0384f67c158664e892f80887e04aa0
+      internalID: 1506728036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_285
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 468
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79589a0062e8e784e97728342a26d770
+      internalID: -386082967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_286
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 468
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728cd4e7c7845e6408c323bf73d47138
+      internalID: 589754920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_287
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6d54b409973224a880c2841aed214b
+      internalID: -1964725475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_288
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 234
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56f524618a588444a92f7072f98aa9d
+      internalID: 300577736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_289
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 234
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ddedb07627c8694fa64d1b19e4d6658
+      internalID: 110316195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_290
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 234
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c227b3ffbea6a64588e612e6e648bc8
+      internalID: -1251763330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_291
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 234
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e7782ae2556894e920b686760a656b
+      internalID: 684919935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_292
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 234
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094d5989f89f6974887bab320c11271e
+      internalID: 583739615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_293
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 234
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3bda796ac567a4aba38ad5dd9b7e11
+      internalID: 600401040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_294
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f272ae50291b364ca6a00849be6e9d1
+      internalID: -751818019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_295
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 0
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d9a81e86a7d6c47922c0b094e53fd0
+      internalID: -1557135748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_296
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e0e9dd604f79d49b5c300699235c9c
+      internalID: 1365659632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_297
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 0
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a496e29a7329e0048a7fcc4dd88c5acf
+      internalID: 999014792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_298
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 0
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8cc0242e3acb148862576fcd6057cc
+      internalID: 1145881703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_299
+      rect:
+        serializedVersion: 2
+        x: 1870
+        y: 0
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc115242ded522f4db3aa85b4ef60a30
+      internalID: -921524277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mgs3-metal-gear-solid-3_300
+      rect:
+        serializedVersion: 2
+        x: 2244
+        y: 0
+        width: 374
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f78e235fff152141b23d96f476315b3
+      internalID: -910801054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0da1dccace77bf34da1365863e50aa80
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":374.0,"y":234.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      mgs3-metal-gear-solid-3_0: 554917032
+      mgs3-metal-gear-solid-3_1: 319535561
+      mgs3-metal-gear-solid-3_10: -932349034
+      mgs3-metal-gear-solid-3_100: -1423074415
+      mgs3-metal-gear-solid-3_101: -1195057016
+      mgs3-metal-gear-solid-3_102: -1962514745
+      mgs3-metal-gear-solid-3_103: 1399003405
+      mgs3-metal-gear-solid-3_104: -943439033
+      mgs3-metal-gear-solid-3_105: 40370846
+      mgs3-metal-gear-solid-3_106: -548957677
+      mgs3-metal-gear-solid-3_107: 639897706
+      mgs3-metal-gear-solid-3_108: -829256264
+      mgs3-metal-gear-solid-3_109: -1878481228
+      mgs3-metal-gear-solid-3_11: -597239496
+      mgs3-metal-gear-solid-3_110: 472954310
+      mgs3-metal-gear-solid-3_111: -1868668658
+      mgs3-metal-gear-solid-3_112: 262904204
+      mgs3-metal-gear-solid-3_113: -733950563
+      mgs3-metal-gear-solid-3_114: -578617202
+      mgs3-metal-gear-solid-3_115: -968444343
+      mgs3-metal-gear-solid-3_116: 1460764767
+      mgs3-metal-gear-solid-3_117: 1856747606
+      mgs3-metal-gear-solid-3_118: -1381639147
+      mgs3-metal-gear-solid-3_119: -505408502
+      mgs3-metal-gear-solid-3_12: -631890395
+      mgs3-metal-gear-solid-3_120: -876352392
+      mgs3-metal-gear-solid-3_121: 1312951592
+      mgs3-metal-gear-solid-3_122: -162042162
+      mgs3-metal-gear-solid-3_123: -1781025068
+      mgs3-metal-gear-solid-3_124: -1424380603
+      mgs3-metal-gear-solid-3_125: 188581308
+      mgs3-metal-gear-solid-3_126: -1785706661
+      mgs3-metal-gear-solid-3_127: 485160693
+      mgs3-metal-gear-solid-3_128: 1283549914
+      mgs3-metal-gear-solid-3_129: 1099594258
+      mgs3-metal-gear-solid-3_13: -2103819891
+      mgs3-metal-gear-solid-3_130: -116478326
+      mgs3-metal-gear-solid-3_131: -765947718
+      mgs3-metal-gear-solid-3_132: 2139972598
+      mgs3-metal-gear-solid-3_133: 319996469
+      mgs3-metal-gear-solid-3_134: 2146189016
+      mgs3-metal-gear-solid-3_135: 867531023
+      mgs3-metal-gear-solid-3_136: -1780097370
+      mgs3-metal-gear-solid-3_137: -1540665484
+      mgs3-metal-gear-solid-3_138: -816875337
+      mgs3-metal-gear-solid-3_139: 381771613
+      mgs3-metal-gear-solid-3_14: -1862320339
+      mgs3-metal-gear-solid-3_140: -1149058806
+      mgs3-metal-gear-solid-3_141: -220421465
+      mgs3-metal-gear-solid-3_142: 1302378794
+      mgs3-metal-gear-solid-3_143: -1595019407
+      mgs3-metal-gear-solid-3_144: 1017922819
+      mgs3-metal-gear-solid-3_145: -1979196528
+      mgs3-metal-gear-solid-3_146: -166165544
+      mgs3-metal-gear-solid-3_147: -1935493897
+      mgs3-metal-gear-solid-3_148: -99907445
+      mgs3-metal-gear-solid-3_149: 216012587
+      mgs3-metal-gear-solid-3_15: -390503943
+      mgs3-metal-gear-solid-3_150: -48331922
+      mgs3-metal-gear-solid-3_151: -634029872
+      mgs3-metal-gear-solid-3_152: 2139548550
+      mgs3-metal-gear-solid-3_153: 1469074179
+      mgs3-metal-gear-solid-3_154: 1639635781
+      mgs3-metal-gear-solid-3_155: 1805698736
+      mgs3-metal-gear-solid-3_156: 1757453350
+      mgs3-metal-gear-solid-3_157: 585841426
+      mgs3-metal-gear-solid-3_158: -182316400
+      mgs3-metal-gear-solid-3_159: 395502280
+      mgs3-metal-gear-solid-3_16: 1940655008
+      mgs3-metal-gear-solid-3_160: 1649737639
+      mgs3-metal-gear-solid-3_161: -1936224822
+      mgs3-metal-gear-solid-3_162: 1352369690
+      mgs3-metal-gear-solid-3_163: -1939136583
+      mgs3-metal-gear-solid-3_164: -185175044
+      mgs3-metal-gear-solid-3_165: -1996202632
+      mgs3-metal-gear-solid-3_166: -1551327261
+      mgs3-metal-gear-solid-3_167: 1372304971
+      mgs3-metal-gear-solid-3_168: 106509155
+      mgs3-metal-gear-solid-3_169: 511307233
+      mgs3-metal-gear-solid-3_17: 255675739
+      mgs3-metal-gear-solid-3_170: -1291389540
+      mgs3-metal-gear-solid-3_171: 1497891840
+      mgs3-metal-gear-solid-3_172: 1311083988
+      mgs3-metal-gear-solid-3_173: 38320848
+      mgs3-metal-gear-solid-3_174: 1756588582
+      mgs3-metal-gear-solid-3_175: -2089638369
+      mgs3-metal-gear-solid-3_176: -1550581770
+      mgs3-metal-gear-solid-3_177: -808576519
+      mgs3-metal-gear-solid-3_178: -555390150
+      mgs3-metal-gear-solid-3_179: -2123614276
+      mgs3-metal-gear-solid-3_18: -1290999646
+      mgs3-metal-gear-solid-3_180: 1895954122
+      mgs3-metal-gear-solid-3_181: 867692017
+      mgs3-metal-gear-solid-3_182: -757218834
+      mgs3-metal-gear-solid-3_183: 1920169639
+      mgs3-metal-gear-solid-3_184: -1582474293
+      mgs3-metal-gear-solid-3_185: -278492414
+      mgs3-metal-gear-solid-3_186: -1951857264
+      mgs3-metal-gear-solid-3_187: -1424877083
+      mgs3-metal-gear-solid-3_188: -845498908
+      mgs3-metal-gear-solid-3_189: 1642515980
+      mgs3-metal-gear-solid-3_19: 1088043420
+      mgs3-metal-gear-solid-3_190: -1854900946
+      mgs3-metal-gear-solid-3_191: -1082455905
+      mgs3-metal-gear-solid-3_192: 2080861761
+      mgs3-metal-gear-solid-3_193: 662727814
+      mgs3-metal-gear-solid-3_194: -1346971856
+      mgs3-metal-gear-solid-3_195: 1901125306
+      mgs3-metal-gear-solid-3_196: -1228653417
+      mgs3-metal-gear-solid-3_197: -954416212
+      mgs3-metal-gear-solid-3_198: 532542583
+      mgs3-metal-gear-solid-3_199: -102965877
+      mgs3-metal-gear-solid-3_2: 507824346
+      mgs3-metal-gear-solid-3_20: 401784853
+      mgs3-metal-gear-solid-3_200: 1002519981
+      mgs3-metal-gear-solid-3_201: -1288218449
+      mgs3-metal-gear-solid-3_202: -1019997331
+      mgs3-metal-gear-solid-3_203: 1151134143
+      mgs3-metal-gear-solid-3_204: 2023140152
+      mgs3-metal-gear-solid-3_205: 445506381
+      mgs3-metal-gear-solid-3_206: 734329336
+      mgs3-metal-gear-solid-3_207: 1563679131
+      mgs3-metal-gear-solid-3_208: 963927656
+      mgs3-metal-gear-solid-3_209: 413072416
+      mgs3-metal-gear-solid-3_21: -657070687
+      mgs3-metal-gear-solid-3_210: 1253190773
+      mgs3-metal-gear-solid-3_211: -560692654
+      mgs3-metal-gear-solid-3_212: 993781294
+      mgs3-metal-gear-solid-3_213: 358608837
+      mgs3-metal-gear-solid-3_214: -1835760299
+      mgs3-metal-gear-solid-3_215: 1311167216
+      mgs3-metal-gear-solid-3_216: 96957752
+      mgs3-metal-gear-solid-3_217: -651516508
+      mgs3-metal-gear-solid-3_218: 759732418
+      mgs3-metal-gear-solid-3_219: 841473554
+      mgs3-metal-gear-solid-3_22: 1082551436
+      mgs3-metal-gear-solid-3_220: -83860227
+      mgs3-metal-gear-solid-3_221: -1208515152
+      mgs3-metal-gear-solid-3_222: -1593105209
+      mgs3-metal-gear-solid-3_223: -441583089
+      mgs3-metal-gear-solid-3_224: -768786534
+      mgs3-metal-gear-solid-3_225: -1756302768
+      mgs3-metal-gear-solid-3_226: 1054499854
+      mgs3-metal-gear-solid-3_227: 149905877
+      mgs3-metal-gear-solid-3_228: -2139093937
+      mgs3-metal-gear-solid-3_229: 325449717
+      mgs3-metal-gear-solid-3_23: 1166274752
+      mgs3-metal-gear-solid-3_230: -21159364
+      mgs3-metal-gear-solid-3_231: -2138240147
+      mgs3-metal-gear-solid-3_232: 798455849
+      mgs3-metal-gear-solid-3_233: -2036770139
+      mgs3-metal-gear-solid-3_234: 1017763257
+      mgs3-metal-gear-solid-3_235: 1298503662
+      mgs3-metal-gear-solid-3_236: 45619761
+      mgs3-metal-gear-solid-3_237: -866695811
+      mgs3-metal-gear-solid-3_238: 2090600773
+      mgs3-metal-gear-solid-3_239: 144212428
+      mgs3-metal-gear-solid-3_24: -1602668882
+      mgs3-metal-gear-solid-3_240: -2111731065
+      mgs3-metal-gear-solid-3_241: 339289862
+      mgs3-metal-gear-solid-3_242: 1255114775
+      mgs3-metal-gear-solid-3_243: 825258975
+      mgs3-metal-gear-solid-3_244: 671809606
+      mgs3-metal-gear-solid-3_245: 1312619373
+      mgs3-metal-gear-solid-3_246: -416109932
+      mgs3-metal-gear-solid-3_247: -836628347
+      mgs3-metal-gear-solid-3_248: 1010903258
+      mgs3-metal-gear-solid-3_249: 1258883239
+      mgs3-metal-gear-solid-3_25: 1323881400
+      mgs3-metal-gear-solid-3_250: -37752863
+      mgs3-metal-gear-solid-3_251: -395042798
+      mgs3-metal-gear-solid-3_252: 61373284
+      mgs3-metal-gear-solid-3_253: -945336193
+      mgs3-metal-gear-solid-3_254: -1691349473
+      mgs3-metal-gear-solid-3_255: -2105825997
+      mgs3-metal-gear-solid-3_256: 1352879298
+      mgs3-metal-gear-solid-3_257: 1790153550
+      mgs3-metal-gear-solid-3_258: 305522358
+      mgs3-metal-gear-solid-3_259: 465245337
+      mgs3-metal-gear-solid-3_26: 1380942543
+      mgs3-metal-gear-solid-3_260: -1980059387
+      mgs3-metal-gear-solid-3_261: 1191681449
+      mgs3-metal-gear-solid-3_262: 1922098614
+      mgs3-metal-gear-solid-3_263: -1525004195
+      mgs3-metal-gear-solid-3_264: -1837725227
+      mgs3-metal-gear-solid-3_265: 990535652
+      mgs3-metal-gear-solid-3_266: -1264830044
+      mgs3-metal-gear-solid-3_267: -1293396007
+      mgs3-metal-gear-solid-3_268: 1731964328
+      mgs3-metal-gear-solid-3_269: 1601194605
+      mgs3-metal-gear-solid-3_27: 1017894124
+      mgs3-metal-gear-solid-3_270: 1109500178
+      mgs3-metal-gear-solid-3_271: 981489960
+      mgs3-metal-gear-solid-3_272: 914833015
+      mgs3-metal-gear-solid-3_273: 2085210331
+      mgs3-metal-gear-solid-3_274: -1268958854
+      mgs3-metal-gear-solid-3_275: 692782926
+      mgs3-metal-gear-solid-3_276: 731778233
+      mgs3-metal-gear-solid-3_277: 1472885957
+      mgs3-metal-gear-solid-3_278: -1355205764
+      mgs3-metal-gear-solid-3_279: 533337934
+      mgs3-metal-gear-solid-3_28: -1236939878
+      mgs3-metal-gear-solid-3_280: 1828322711
+      mgs3-metal-gear-solid-3_281: -651479600
+      mgs3-metal-gear-solid-3_282: -1618060996
+      mgs3-metal-gear-solid-3_283: 767855108
+      mgs3-metal-gear-solid-3_284: 1506728036
+      mgs3-metal-gear-solid-3_285: -386082967
+      mgs3-metal-gear-solid-3_286: 589754920
+      mgs3-metal-gear-solid-3_287: -1964725475
+      mgs3-metal-gear-solid-3_288: 300577736
+      mgs3-metal-gear-solid-3_289: 110316195
+      mgs3-metal-gear-solid-3_29: 1675168998
+      mgs3-metal-gear-solid-3_290: -1251763330
+      mgs3-metal-gear-solid-3_291: 684919935
+      mgs3-metal-gear-solid-3_292: 583739615
+      mgs3-metal-gear-solid-3_293: 600401040
+      mgs3-metal-gear-solid-3_294: -751818019
+      mgs3-metal-gear-solid-3_295: -1557135748
+      mgs3-metal-gear-solid-3_296: 1365659632
+      mgs3-metal-gear-solid-3_297: 999014792
+      mgs3-metal-gear-solid-3_298: 1145881703
+      mgs3-metal-gear-solid-3_299: -921524277
+      mgs3-metal-gear-solid-3_3: -1263694137
+      mgs3-metal-gear-solid-3_30: 1016216842
+      mgs3-metal-gear-solid-3_300: -910801054
+      mgs3-metal-gear-solid-3_31: -250441503
+      mgs3-metal-gear-solid-3_32: -1894514432
+      mgs3-metal-gear-solid-3_33: 310485024
+      mgs3-metal-gear-solid-3_34: 1972488740
+      mgs3-metal-gear-solid-3_35: 191512200
+      mgs3-metal-gear-solid-3_36: -91092416
+      mgs3-metal-gear-solid-3_37: -1732980134
+      mgs3-metal-gear-solid-3_38: -66192752
+      mgs3-metal-gear-solid-3_39: 1247700449
+      mgs3-metal-gear-solid-3_4: 1731718476
+      mgs3-metal-gear-solid-3_40: -260140350
+      mgs3-metal-gear-solid-3_41: 421460147
+      mgs3-metal-gear-solid-3_42: 1554017304
+      mgs3-metal-gear-solid-3_43: 2119358017
+      mgs3-metal-gear-solid-3_44: 132693226
+      mgs3-metal-gear-solid-3_45: -1387571371
+      mgs3-metal-gear-solid-3_46: 874397578
+      mgs3-metal-gear-solid-3_47: -1110604609
+      mgs3-metal-gear-solid-3_48: 839557933
+      mgs3-metal-gear-solid-3_49: -1294262049
+      mgs3-metal-gear-solid-3_5: -128322952
+      mgs3-metal-gear-solid-3_50: -472206528
+      mgs3-metal-gear-solid-3_51: -1438714295
+      mgs3-metal-gear-solid-3_52: 1111643132
+      mgs3-metal-gear-solid-3_53: -551299455
+      mgs3-metal-gear-solid-3_54: 56297612
+      mgs3-metal-gear-solid-3_55: -727975338
+      mgs3-metal-gear-solid-3_56: 2009664453
+      mgs3-metal-gear-solid-3_57: 1417410973
+      mgs3-metal-gear-solid-3_58: -795225071
+      mgs3-metal-gear-solid-3_59: 334263737
+      mgs3-metal-gear-solid-3_6: -1004667913
+      mgs3-metal-gear-solid-3_60: 430497057
+      mgs3-metal-gear-solid-3_61: 592051309
+      mgs3-metal-gear-solid-3_62: 1165053892
+      mgs3-metal-gear-solid-3_63: 872392063
+      mgs3-metal-gear-solid-3_64: -1388362709
+      mgs3-metal-gear-solid-3_65: -38194574
+      mgs3-metal-gear-solid-3_66: 346435393
+      mgs3-metal-gear-solid-3_67: 64645194
+      mgs3-metal-gear-solid-3_68: 1047420662
+      mgs3-metal-gear-solid-3_69: 1117898745
+      mgs3-metal-gear-solid-3_7: 1553752944
+      mgs3-metal-gear-solid-3_70: -692851034
+      mgs3-metal-gear-solid-3_71: 772467952
+      mgs3-metal-gear-solid-3_72: 310687222
+      mgs3-metal-gear-solid-3_73: -1782701200
+      mgs3-metal-gear-solid-3_74: -1473075387
+      mgs3-metal-gear-solid-3_75: -1782440431
+      mgs3-metal-gear-solid-3_76: 139717419
+      mgs3-metal-gear-solid-3_77: 1895341379
+      mgs3-metal-gear-solid-3_78: 1007206528
+      mgs3-metal-gear-solid-3_79: 2072968735
+      mgs3-metal-gear-solid-3_8: -2083837808
+      mgs3-metal-gear-solid-3_80: 2064809223
+      mgs3-metal-gear-solid-3_81: -1972786104
+      mgs3-metal-gear-solid-3_82: -74324256
+      mgs3-metal-gear-solid-3_83: -1663796705
+      mgs3-metal-gear-solid-3_84: -18899708
+      mgs3-metal-gear-solid-3_85: -1696958836
+      mgs3-metal-gear-solid-3_86: 1461197830
+      mgs3-metal-gear-solid-3_87: 1384272844
+      mgs3-metal-gear-solid-3_88: 416905338
+      mgs3-metal-gear-solid-3_89: -1104197939
+      mgs3-metal-gear-solid-3_9: 1810500745
+      mgs3-metal-gear-solid-3_90: 1718218628
+      mgs3-metal-gear-solid-3_91: -1356366341
+      mgs3-metal-gear-solid-3_92: 324885670
+      mgs3-metal-gear-solid-3_93: 2003315027
+      mgs3-metal-gear-solid-3_94: -1387331194
+      mgs3-metal-gear-solid-3_95: 138384307
+      mgs3-metal-gear-solid-3_96: 745800445
+      mgs3-metal-gear-solid-3_97: 27482486
+      mgs3-metal-gear-solid-3_98: 1832746972
+      mgs3-metal-gear-solid-3_99: -2015572439
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
