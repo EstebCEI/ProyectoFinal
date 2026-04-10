@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using TMPro;
 
 public class PlayerShoot : MonoBehaviour
 {
@@ -11,12 +12,15 @@ public class PlayerShoot : MonoBehaviour
     [Header("Arma")]
     public WeaponsClass currentWeapon;
 
+    [Header("UI")]
+    public TextMeshProUGUI ammoText;
+    public int maxAmmo = 12;
+
     [Header("Disparo")]
     public float shootDistance = 100f;
     public Transform shootOrigin;
 
     private bool isAiming;
-
 
     private int currentAmmo;
     private float nextTimeToShoot = 0f;
@@ -24,8 +28,8 @@ public class PlayerShoot : MonoBehaviour
 
     void Start()
     {
-        if (currentWeapon != null)
-            currentAmmo = currentWeapon.BulletAmount;
+        currentAmmo = maxAmmo;
+        UpdateAmmoUI();
     }
 
     void Update()
@@ -37,18 +41,21 @@ public class PlayerShoot : MonoBehaviour
 
     void HandleAim()
     {
-        isAiming = Mouse.current.rightButton.isPressed;
-
-        if (cameraSwitch != null)
-            cameraSwitch.isAiming = isAiming;
-
-        if (crosshair == null) return;
-
-        crosshair.enabled = isAiming;
-
-        if (isAiming && currentWeapon != null && currentWeapon.crosshair != null)
+        if (!PauseMenu.isPaused)
         {
-            crosshair.sprite = currentWeapon.crosshair;
+            isAiming = Mouse.current.rightButton.isPressed;
+
+            if (cameraSwitch != null)
+                cameraSwitch.isAiming = isAiming;
+
+            if (crosshair == null) return;
+
+            crosshair.enabled = isAiming;
+
+            if (isAiming && currentWeapon != null && currentWeapon.crosshair != null)
+            {
+                crosshair.sprite = currentWeapon.crosshair;
+            }
         }
     }
 
@@ -68,13 +75,15 @@ public class PlayerShoot : MonoBehaviour
             Shoot();
 
             currentAmmo--;
+            UpdateAmmoUI();
+
             nextTimeToShoot = Time.time + (1f / currentWeapon.RateOfFire);
         }
     }
 
     void HandleReload()
     {
-        if (Keyboard.current.rKey.wasPressedThisFrame && !isReloading)
+        if (Keyboard.current.rKey.wasPressedThisFrame && !isReloading && currentAmmo < maxAmmo)
         {
             StartCoroutine(Reload());
         }
@@ -84,10 +93,24 @@ public class PlayerShoot : MonoBehaviour
     {
         isReloading = true;
 
-        yield return new WaitForSeconds(1.5f);
+        Debug.Log("Recargando...");
 
-        currentAmmo = currentWeapon.BulletAmount;
+        yield return new WaitForSeconds(1f);
+
+        currentAmmo = maxAmmo;
         isReloading = false;
+
+        Debug.Log("Recarga completa");
+
+        UpdateAmmoUI();
+    }
+
+    void UpdateAmmoUI()
+    {
+        if (ammoText != null)
+        {
+            ammoText.text = currentAmmo + "/" + maxAmmo;
+        }
     }
 
     void Shoot()

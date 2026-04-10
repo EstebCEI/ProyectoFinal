@@ -69,7 +69,7 @@ public class RagdollController : MonoBehaviour
     void DebugDamage()
     {
         var keyboard = Keyboard.current;
-        if (keyboard != null && keyboard.kKey.wasPressedThisFrame)
+        if (keyboard != null && keyboard.lKey.wasPressedThisFrame)
         {
             EnableRagdoll();
         }

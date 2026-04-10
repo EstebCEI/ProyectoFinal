@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Manager\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Manager\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Jugador\CameraLook.cs" />
+    <Compile Include="Assets\Scripts\Jugador\PlayerRagdoll.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Weapons.cs" />
     <Compile Include="Assets\Scripts\Manager\GameOverScreen.cs" />

@@ -4,25 +4,20 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CharacterController))]
 public class PlayerMovement : MonoBehaviour
 {
-    [Header("Movimiento")]
     public float walkSpeed = 5f;
     [Range(0f, 1f)] public float rotationSmooth = 0.15f;
 
-    [Header("Alturas del CharacterController")]
     public float standHeight = 1.8f;
     public float crouchHeight = 1.2f;
     public float proneHeight = 0.5f;
 
-    [Header("Referencias")]
     public Transform cameraPivot;
 
-    [Header("Gravedad")]
     public float gravity = -9.81f;
     private float yVelocity;
 
     private CharacterController controller;
 
-    // Posturas
     private enum Stance { Standing, Crouch, Prone }
     private Stance currentStance = Stance.Standing;
 
@@ -30,7 +25,9 @@ public class PlayerMovement : MonoBehaviour
 
     float ctrlHoldTimer = 0f;
     bool ctrlWasPressed = false;
-    float holdThreshold = 0.35f; // tiempo mantener
+    float holdThreshold = 0.35f;
+
+    private bool isDead = false;
 
     void Start()
     {
@@ -41,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (isDead) return;
+
         HandleMovement();
         HandleStance();
     }
@@ -54,7 +53,6 @@ public class PlayerMovement : MonoBehaviour
         if (Keyboard.current.aKey.isPressed) inputDir += Vector3.left;
         if (Keyboard.current.dKey.isPressed) inputDir += Vector3.right;
 
-        // Animaciones
         if (inputDir != Vector3.zero)
             m_Animator.SetInteger("PlayerSpeed", 1);
         else
@@ -88,59 +86,40 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void HandleStance()
-{
-    bool ctrlPressed = Keyboard.current.leftCtrlKey.isPressed;
-
-    if (ctrlPressed && !ctrlWasPressed)
     {
-        ctrlHoldTimer = Time.time;
-    }
+        bool ctrlPressed = Keyboard.current.leftCtrlKey.isPressed;
 
-    if (!ctrlPressed && ctrlWasPressed)
-    {
-        float holdTime = Time.time - ctrlHoldTimer;
-
-        bool isHold = holdTime > holdThreshold;
-
-        switch (currentStance)
+        if (ctrlPressed && !ctrlWasPressed)
         {
-            case Stance.Standing:
-
-                if (isHold)
-                    currentStance = Stance.Prone;
-                else
-                    currentStance = Stance.Crouch;
-
-                break;
-
-            case Stance.Crouch:
-
-                if (isHold)
-                    currentStance = Stance.Prone;
-                else
-                    currentStance = Stance.Standing;
-
-                break;
-
-            case Stance.Prone:
-
-                if (isHold)
-                    currentStance = Stance.Standing;
-                else
-                    currentStance = Stance.Crouch;
-
-                break;
+            ctrlHoldTimer = Time.time;
         }
 
-        SetStance(currentStance);
+        if (!ctrlPressed && ctrlWasPressed)
+        {
+            float holdTime = Time.time - ctrlHoldTimer;
+            bool isHold = holdTime > holdThreshold;
+
+            switch (currentStance)
+            {
+                case Stance.Standing:
+                    currentStance = isHold ? Stance.Prone : Stance.Crouch;
+                    break;
+
+                case Stance.Crouch:
+                    currentStance = isHold ? Stance.Prone : Stance.Standing;
+                    break;
+
+                case Stance.Prone:
+                    currentStance = isHold ? Stance.Standing : Stance.Crouch;
+                    break;
+            }
+
+            SetStance(currentStance);
+        }
+
+        ctrlWasPressed = ctrlPressed;
     }
 
-    ctrlWasPressed = ctrlPressed;
-}
-    public int GetStance()
-    {
-        return (int)currentStance;
-    }
     void SetStance(Stance stance)
     {
         switch (stance)
@@ -162,6 +141,22 @@ public class PlayerMovement : MonoBehaviour
                 controller.center = new Vector3(0, proneHeight / 2f, 0);
                 m_Animator.SetInteger("PlayerStance", 2);
                 break;
+        }
+    }
+
+    public int GetStance()
+    {
+        return (int)currentStance;
+    }
+    
+
+    public void SetDead(bool value)
+    {
+        isDead = value;
+
+        if (m_Animator != null)
+        {
+            m_Animator.SetInteger("PlayerSpeed", 0);
         }
     }
 }

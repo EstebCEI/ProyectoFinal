@@ -1,18 +1,29 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [Header("Vida")]
     public Slider healthSlider;
     public float maxHealth = 100f;
     public float health;
 
+    [Header("UI")]
+    public GameObject PantallaMuerte;
+
     [Header("Regeneración")]
-    public float regenDelay = 8f;      
-    public float regenRate = 10f;       
+    public float regenDelay = 8f;
+    public float regenRate = 10f;
 
     private float lastDamageTime;
+
+    [Header("Referencias")]
+    [SerializeField] private Animator animator;
+    [SerializeField] private PlayerMovement playerMovement;
+
+    private bool isDead = false;
 
     void Start()
     {
@@ -25,30 +36,30 @@ public class PlayerHealth : MonoBehaviour
         }
 
         lastDamageTime = Time.time;
+
+        if (animator != null)
+            animator.SetBool("isDead", false);
     }
 
     void Update()
     {
+        if (isDead) return;
+
         UpdateUI();
         HandleRegen();
         DebugDamage();
     }
 
-    // UI
     void UpdateUI()
     {
-        if (healthSlider != null && healthSlider.value != health)
-        {
+        if (healthSlider != null)
             healthSlider.value = health;
-        }
     }
 
-    // REGENERACIÓN
     void HandleRegen()
     {
-        if (health <= 0) return;
+        if (health <= 0 || isDead) return;
 
-        // Si han pasado X segundos sin daño
         if (Time.time >= lastDamageTime + regenDelay)
         {
             health += regenRate * Time.deltaTime;
@@ -56,26 +67,70 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    // DAÑO
     public void TakeDamage(float damage)
     {
-        health -= damage;
-        health = Mathf.Clamp(health, 0, maxHealth);
+        if (isDead) return;
 
-        // Reinicia temporizador de regeneración
+        health -= damage;
+
         lastDamageTime = Time.time;
 
-        if (health == 0)
+        if (health <= 0f)
+        {
+            health = 0f;
             Die();
+            return;
+        }
     }
 
-    // MUERTE
     void Die()
     {
-        Debug.Log("Player has died.");
+        if (isDead) return;
+
+        isDead = true;
+
+        int stance = playerMovement.GetStance();
+
+        if (animator != null)
+        {
+            animator.SetBool("isDead", true);
+            animator.applyRootMotion = true;
+
+            switch (stance)
+            {
+                case 0:
+                    animator.CrossFade("DeathStanding", 0.05f);
+                    break;
+
+                case 1:
+                    animator.CrossFade("DeathCrouch", 0.05f);
+                    break;
+
+                case 2:
+                    animator.CrossFade("DeathProne", 0.05f);
+                    break;
+            }
+        }
+
+        if (playerMovement != null)
+            playerMovement.SetDead(true);
+
+        StartCoroutine(DieCoroutine());
     }
 
-    // TEST (tecla K)
+    IEnumerator DieCoroutine()
+    {
+        yield return new WaitForSecondsRealtime(3.5f);
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
+        if (PantallaMuerte != null)
+            PantallaMuerte.SetActive(true);
+
+        Time.timeScale = 0f;
+    }
+
     void DebugDamage()
     {
         var keyboard = Keyboard.current;

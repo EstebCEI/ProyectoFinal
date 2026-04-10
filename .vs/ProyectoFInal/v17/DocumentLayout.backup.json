@@ -3,40 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\UGUI\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\UGUI\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\enemigos\\ragdollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigos\\ragdollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\UGUI\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\UGUI\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\aimcameraswitch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\jugador\\cameralook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +55,6 @@
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\weapons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\GameOverScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameOverScreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -66,11 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Weapons.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\Weapons.cs",
@@ -83,56 +83,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MainMenu.cs",
               "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\MainMenu.cs",
               "RelativeToolTip": "Assets\\Scripts\\Manager\\MainMenu.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T17:47:05.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\PauseMenu.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Manager\\PauseMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T17:46:48.795Z",
+              "WhenOpened": "2026-04-08T15:28:46.696Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainMenu.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T14:49:52.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "GameOverScreen.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\GameOverScreen.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameOverScreen.cs",
-              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\GameOverScreen.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameOverScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\GameOverScreen.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameOverScreen.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\GameOverScreen.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\GameOverScreen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-05T11:26:52.406Z"
+              "WhenOpened": "2026-04-09T09:21:18.635Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "SettingsMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\SettingsMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SettingsMenu.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\SettingsMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\SettingsMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T09:34:05.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PauseMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\PauseMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\PauseMenu.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\PauseMenu.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Manager\\PauseMenu.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T17:46:48.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "EventSystem.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@bb329a87fcdc\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
@@ -156,19 +158,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "RagdollController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\RagdollController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\RagdollController.cs",
               "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\RagdollController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemigos\\RagdollController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAIwE4AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwEcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-03T09:30:22.567Z"
+              "WhenOpened": "2026-04-03T09:30:22.567Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerMovement.cs",
@@ -180,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "EnemyStationaryBehaviour.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
@@ -192,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "CameraLook.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\CameraLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\CameraLook.cs",
@@ -204,31 +207,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
               "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwEkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-21T17:20:02.89Z"
+              "WhenOpened": "2026-03-21T17:20:02.89Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
               "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAwwHQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAqwFYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-19T18:59:43.779Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AimCameraSwitch.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\AimCameraSwitch.cs",
