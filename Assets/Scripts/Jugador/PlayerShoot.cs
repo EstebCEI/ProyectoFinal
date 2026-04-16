@@ -121,6 +121,7 @@ public class PlayerShoot : MonoBehaviour
 
         if (activeCam == null) return;
 
+        // 🎯 Ray desde cámara
         Ray camRay = activeCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         Vector3 targetPoint;
 
@@ -129,27 +130,47 @@ public class PlayerShoot : MonoBehaviour
         else
             targetPoint = camRay.origin + camRay.direction * shootDistance;
 
+        // 🔫 Ray desde arma
         Vector3 direction = (targetPoint - shootOrigin.position).normalized;
-
         Ray shootRay = new Ray(shootOrigin.position, direction);
 
         if (Physics.Raycast(shootRay, out RaycastHit hit, shootDistance))
         {
-            EnemyAI enemy = hit.collider.GetComponent<EnemyAI>();
+            // 🔍 Detectar enemigos
+            EnemyGuard guard = hit.collider.GetComponent<EnemyGuard>();
+            EnemyPatrolAdvanced patrol = hit.collider.GetComponent<EnemyPatrolAdvanced>();
 
-            if (enemy != null)
+            // 💀 ONE SHOT (CLAVE)
+            if (guard != null)
             {
-                RagdollController ragdoll = enemy.GetComponent<RagdollController>();
+                guard.TakeDamage(999f);
 
-                if (ragdoll != null)
-                {
-                    ragdoll.EnableRagdoll();
-                }
-                else
-                {
-                    Destroy(enemy.gameObject);
-                }
+                if (guard.isDead)
+                    ActivateRagdoll(guard.gameObject);
+
+                return;
             }
+
+            if (patrol != null)
+            {
+                patrol.TakeDamage(999f);
+
+                if (patrol.isDead)
+                    ActivateRagdoll(patrol.gameObject);
+
+                return;
+            }
+        }
+    }
+
+    // 🪦 RAGDOLL
+    void ActivateRagdoll(GameObject enemyGO)
+    {
+        RagdollController ragdoll = enemyGO.GetComponent<RagdollController>();
+
+        if (ragdoll != null)
+        {
+            ragdoll.EnableRagdoll();
         }
     }
 }

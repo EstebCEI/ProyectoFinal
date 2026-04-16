@@ -1,44 +1,53 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    [Header("UI")]
-    public GameObject hud;           // Todo tu HUD (vida, crosshair, etc)
-    public GameObject deathScreen;   // Panel de muerte
-
-    private bool isDead = false;
+    [Header("Misión")]
+    public bool hasHackedComputer = false;
+    public bool missionCompleted = false;
 
     void Awake()
     {
         if (instance == null)
+        {
             instance = this;
+            DontDestroyOnLoad(gameObject); 
+        }
         else
+        {
             Destroy(gameObject);
+        }
     }
 
-    public void PlayerDied()
+    // -------- HACK --------
+
+    public void HackComputer()
     {
-        if (isDead) return;
-        isDead = true;
+        if (hasHackedComputer) return;
 
-        // Ocultar HUD
-        if (hud != null)
-            hud.SetActive(false);
+        hasHackedComputer = true;
+    }
 
-        // Mostrar pantalla de muerte
-        if (deathScreen != null)
-            deathScreen.SetActive(true);
+    // -------- COMPLETAR MISIÓN --------
 
-        // Parar el juego
+    public void CompleteMission()
+    {
+        if (!hasHackedComputer || missionCompleted) return;
+
+        missionCompleted = true;
+
+        Debug.Log("🏆 MISIÓN COMPLETADA");
+
         Time.timeScale = 0f;
 
-        // Liberar cursor
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+
+    // -------- UTILIDADES --------
 
     public void RestartGame()
     {

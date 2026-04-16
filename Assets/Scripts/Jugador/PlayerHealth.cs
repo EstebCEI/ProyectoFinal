@@ -28,14 +28,13 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         health = maxHealth;
+        lastDamageTime = Time.time;
 
         if (healthSlider != null)
         {
             healthSlider.maxValue = maxHealth;
             healthSlider.value = health;
         }
-
-        lastDamageTime = Time.time;
 
         if (animator != null)
             animator.SetBool("isDead", false);
@@ -45,8 +44,8 @@ public class PlayerHealth : MonoBehaviour
     {
         if (isDead) return;
 
-        UpdateUI();
         HandleRegen();
+        UpdateUI();
         DebugDamage();
     }
 
@@ -58,12 +57,12 @@ public class PlayerHealth : MonoBehaviour
 
     void HandleRegen()
     {
-        if (health <= 0 || isDead) return;
+        if (health <= 0f || isDead) return;
 
         if (Time.time >= lastDamageTime + regenDelay)
         {
             health += regenRate * Time.deltaTime;
-            health = Mathf.Clamp(health, 0, maxHealth);
+            health = Mathf.Clamp(health, 0f, maxHealth);
         }
     }
 
@@ -72,14 +71,17 @@ public class PlayerHealth : MonoBehaviour
         if (isDead) return;
 
         health -= damage;
+        health = Mathf.Clamp(health, 0f, maxHealth);
 
         lastDamageTime = Time.time;
+
+        UpdateUI();
 
         if (health <= 0f)
         {
             health = 0f;
+            UpdateUI();
             Die();
-            return;
         }
     }
 
@@ -88,8 +90,11 @@ public class PlayerHealth : MonoBehaviour
         if (isDead) return;
 
         isDead = true;
+        health = 0f;
 
-        int stance = playerMovement.GetStance();
+        UpdateUI();
+
+        int stance = playerMovement != null ? playerMovement.GetStance() : 0;
 
         if (animator != null)
         {
@@ -98,17 +103,9 @@ public class PlayerHealth : MonoBehaviour
 
             switch (stance)
             {
-                case 0:
-                    animator.CrossFade("DeathStanding", 0.05f);
-                    break;
-
-                case 1:
-                    animator.CrossFade("DeathCrouch", 0.05f);
-                    break;
-
-                case 2:
-                    animator.CrossFade("DeathProne", 0.05f);
-                    break;
+                case 0: animator.CrossFade("DeathStanding", 0.05f); break;
+                case 1: animator.CrossFade("DeathCrouch", 0.05f); break;
+                case 2: animator.CrossFade("DeathProne", 0.05f); break;
             }
         }
 

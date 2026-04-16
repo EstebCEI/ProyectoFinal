@@ -61,19 +61,26 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemigos\EnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\Jugador\AimCameraSwitch.cs" />
+    <Compile Include="Assets\Scripts\Manager\BillboardUI.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Enemigos\EnemyStationaryBehaviour.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameData.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Enemigos\RagdollController.cs" />
+    <Compile Include="Assets\Scripts\Manager\TriggerExit.cs" />
     <Compile Include="Assets\Scripts\Manager\SettingsMenu.cs" />
     <Compile Include="Assets\Scripts\Manager\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Jugador\CameraLook.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerRagdoll.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameDataJSON.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Weapons.cs" />
     <Compile Include="Assets\Scripts\Manager\GameOverScreen.cs" />
+    <Compile Include="Assets\Scripts\Manager\EnemyData.cs" />
+    <Compile Include="Assets\Scripts\Manager\ComputerInteract.cs" />
     <Compile Include="Assets\Scripts\Manager\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
