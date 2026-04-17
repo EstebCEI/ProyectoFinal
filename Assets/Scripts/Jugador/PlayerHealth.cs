@@ -128,6 +128,14 @@ public class PlayerHealth : MonoBehaviour
         Time.timeScale = 0f;
     }
 
+    public void SetHealth(float value)
+    {
+        health = Mathf.Clamp(value, 0f, maxHealth);
+
+        if (healthSlider != null)
+            healthSlider.value = health;
+    }
+
     void DebugDamage()
     {
         var keyboard = Keyboard.current;

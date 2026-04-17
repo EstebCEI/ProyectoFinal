@@ -3,9 +3,10 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]
-public class EnemyGuard : MonoBehaviour
+public class EnemyGuard : MonoBehaviour, IEnemySaveable
 {
-    [Header("Referencias")]
+    public string enemyID;
+
     public Transform player;
     public PlayerHealth playerHealth;
     public Transform guardCenter;
@@ -13,21 +14,16 @@ public class EnemyGuard : MonoBehaviour
     private NavMeshAgent agent;
     private Animator animator;
 
-    [Header("Vida")]
     public float maxHealth = 100f;
     private float health;
 
-    [Header("Zona")]
     public float guardRadius = 10f;
 
-    [Header("Visión")]
     public float viewDistance = 12f;
     public float viewAngle = 90f;
 
-    [Header("Combate")]
     public float shootDistance = 8f;
 
-    [Header("Disparo")]
     public float damage = 10f;
     public float fireRate = 1.2f;
     private float nextFireTime;
@@ -37,7 +33,7 @@ public class EnemyGuard : MonoBehaviour
 
     public bool isDead = false;
 
-    enum State { Idle, Alert, Aggro, Search }
+    enum State { Idle, Aggro, Search }
     State state = State.Idle;
 
     void Start()
@@ -46,6 +42,26 @@ public class EnemyGuard : MonoBehaviour
         animator = GetComponent<Animator>();
 
         health = maxHealth;
+    }
+
+    public EnemyData GetData()
+    {
+        return new EnemyData(
+            enemyID,
+            transform.position,
+            health,
+            isDead
+        );
+    }
+
+    public void LoadData(EnemyData data)
+    {
+        transform.position = data.position;
+        health = data.health;
+        isDead = data.isDead;
+
+        if (isDead)
+            Die();
     }
 
     void Update()
@@ -58,15 +74,6 @@ public class EnemyGuard : MonoBehaviour
         HandleMovement();
         HandleAnimations();
     }
-
-    bool IsAgentValid()
-    {
-        return agent != null &&
-               agent.isActiveAndEnabled &&
-               agent.isOnNavMesh;
-    }
-
-    // ---------------- VIDA ----------------
 
     public void TakeDamage(float dmg)
     {
@@ -87,33 +94,25 @@ public class EnemyGuard : MonoBehaviour
 
         isDead = true;
 
-        if (agent != null && agent.isOnNavMesh)
-        {
-            agent.ResetPath();
-            agent.enabled = false;
-        }
+        agent.ResetPath();
+        agent.enabled = false;
 
-        if (animator != null)
-        {
-            animator.SetBool("IsAggro", false);
-            animator.SetBool("IsShooting", false);
-            animator.CrossFade("Death", 0.1f);
-        }
+        animator.CrossFade("Death", 0.1f);
 
-        Collider col = GetComponent<Collider>();
-        if (col != null)
-            col.enabled = false;
-
-        RagdollController ragdoll = GetComponent<RagdollController>();
-        if (ragdoll != null)
-            ragdoll.EnableRagdoll();
+        GetComponent<Collider>().enabled = false;
     }
 
-    // ---------------- VISIÓN ----------------
+    bool IsAgentValid()
+    {
+        return agent != null &&
+               agent.isActiveAndEnabled &&
+               agent.isOnNavMesh;
+    }
 
     void CheckVision()
     {
         seesPlayer = false;
+
         if (player == null) return;
 
         Vector3 dir = player.position - transform.position;
@@ -137,21 +136,12 @@ public class EnemyGuard : MonoBehaviour
         }
     }
 
-    // ---------------- ESTADOS ----------------
-
     void UpdateState()
     {
         if (state == State.Idle && seesPlayer) state = State.Aggro;
-        if (state == State.Alert && seesPlayer) state = State.Aggro;
-
-        if (state == State.Aggro && !seesPlayer)
-            state = State.Search;
-
-        if (state == State.Search && seesPlayer)
-            state = State.Aggro;
+        if (state == State.Aggro && !seesPlayer) state = State.Search;
+        if (state == State.Search && seesPlayer) state = State.Aggro;
     }
-
-    // ---------------- MOVIMIENTO ----------------
 
     void HandleMovement()
     {
@@ -173,23 +163,19 @@ public class EnemyGuard : MonoBehaviour
 
     void StayInZone()
     {
-        if (!IsAgentValid()) return;
-
         if (Vector3.Distance(transform.position, guardCenter.position) > guardRadius)
             SafeSetDestination(guardCenter.position);
         else
-            SafeResetPath();
+            agent.ResetPath();
     }
 
     void Combat()
     {
         float dist = Vector3.Distance(transform.position, player.position);
 
-        RotateTowards(player.position);
-
         if (dist <= shootDistance)
         {
-            SafeResetPath();
+            agent.ResetPath();
             TryShoot();
         }
         else
@@ -198,17 +184,12 @@ public class EnemyGuard : MonoBehaviour
         }
     }
 
-    // ---------------- DISPARO ----------------
-
     void TryShoot()
     {
         if (Time.time < nextFireTime) return;
         nextFireTime = Time.time + fireRate;
 
-        if (playerHealth == null) return;
-
-        animator.SetBool("IsShooting", true);
-
+        animator.SetBool("isShooting", true);
         playerHealth.TakeDamage(damage);
 
         Invoke(nameof(StopShoot), 0.2f);
@@ -216,42 +197,18 @@ public class EnemyGuard : MonoBehaviour
 
     void StopShoot()
     {
-        animator.SetBool("IsShooting", false);
+        animator.SetBool("isShooting", false);
     }
-
-    // ---------------- SAFE NAVMESH ----------------
 
     void SafeSetDestination(Vector3 pos)
     {
-        if (!IsAgentValid()) return;
-        agent.SetDestination(pos);
+        if (IsAgentValid())
+            agent.SetDestination(pos);
     }
-
-    void SafeResetPath()
-    {
-        if (!IsAgentValid()) return;
-        agent.ResetPath();
-    }
-
-    // ---------------- ANIMACIONES ----------------
 
     void HandleAnimations()
     {
-        int speed = agent.hasPath ? 1 : 0;
-        animator.SetInteger("Speed", speed);
+        animator.SetInteger("Speed", agent.hasPath ? 1 : 0);
         animator.SetBool("IsAggro", state == State.Aggro);
-    }
-
-    // ---------------- ROTACIÓN ----------------
-
-    void RotateTowards(Vector3 target)
-    {
-        Vector3 dir = (target - transform.position).normalized;
-        dir.y = 0;
-
-        if (dir == Vector3.zero) return;
-
-        Quaternion rot = Quaternion.LookRotation(dir);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rot, Time.deltaTime * 5f);
     }
 }

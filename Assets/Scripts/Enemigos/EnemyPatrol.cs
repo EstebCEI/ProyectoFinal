@@ -3,8 +3,10 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(Animator))]
-public class EnemyPatrolAdvanced : MonoBehaviour
+public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
 {
+    public string enemyID;
+
     public Transform player;
     public PlayerHealth playerHealth;
     public Transform[] patrolPoints;
@@ -46,6 +48,26 @@ public class EnemyPatrolAdvanced : MonoBehaviour
         GoToNextPoint();
     }
 
+    public EnemyData GetData()
+    {
+        return new EnemyData(
+            enemyID,
+            transform.position,
+            health,
+            isDead
+        );
+    }
+
+    public void LoadData(EnemyData data)
+    {
+        transform.position = data.position;
+        health = data.health;
+        isDead = data.isDead;
+
+        if (isDead)
+            Die();
+    }
+
     void Update()
     {
         if (isDead) return;
@@ -56,15 +78,6 @@ public class EnemyPatrolAdvanced : MonoBehaviour
         HandleMovement();
         HandleAnimations();
     }
-
-    bool IsAgentValid()
-    {
-        return agent != null &&
-               agent.isActiveAndEnabled &&
-               agent.isOnNavMesh;
-    }
-
-    // ---------------- VIDA ----------------
 
     public void TakeDamage(float dmg)
     {
@@ -85,7 +98,7 @@ public class EnemyPatrolAdvanced : MonoBehaviour
 
         isDead = true;
 
-        if (agent != null && agent.isOnNavMesh)
+        if (agent != null)
         {
             agent.ResetPath();
             agent.enabled = false;
@@ -94,20 +107,30 @@ public class EnemyPatrolAdvanced : MonoBehaviour
         if (animator != null)
         {
             animator.SetBool("IsAggro", false);
-            animator.SetBool("IsShooting", false);
+            animator.SetBool("isShooting", false);
             animator.CrossFade("Death", 0.1f);
         }
 
         Collider col = GetComponent<Collider>();
         if (col != null)
             col.enabled = false;
-
-        RagdollController ragdoll = GetComponent<RagdollController>();
-        if (ragdoll != null)
-            ragdoll.EnableRagdoll();
     }
 
-    // ---------------- VISIÓN ----------------
+    bool IsAgentValid()
+    {
+        return agent != null &&
+               agent.isActiveAndEnabled &&
+               agent.isOnNavMesh;
+    }
+
+    void GoToNextPoint()
+    {
+        if (!IsAgentValid()) return;
+        if (patrolPoints.Length == 0) return;
+
+        agent.SetDestination(patrolPoints[currentPoint].position);
+        currentPoint = (currentPoint + 1) % patrolPoints.Length;
+    }
 
     void CheckVision()
     {
@@ -138,16 +161,9 @@ public class EnemyPatrolAdvanced : MonoBehaviour
     void UpdateState()
     {
         if (state == State.Patrol && seesPlayer) state = State.Aggro;
-        if (state == State.Alert && seesPlayer) state = State.Aggro;
-
-        if (state == State.Aggro && !seesPlayer)
-            state = State.Search;
-
-        if (state == State.Search && seesPlayer)
-            state = State.Aggro;
+        if (state == State.Aggro && !seesPlayer) state = State.Search;
+        if (state == State.Search && seesPlayer) state = State.Aggro;
     }
-
-    // ---------------- MOVIMIENTO ----------------
 
     void HandleMovement()
     {
@@ -169,38 +185,17 @@ public class EnemyPatrolAdvanced : MonoBehaviour
 
     void Patrol()
     {
-        if (patrolPoints == null || patrolPoints.Length == 0) return;
-        if (!IsAgentValid()) return;
-
-        if (agent.pathPending) return;
-        if (!agent.hasPath) return;
-
-        float dist = agent.remainingDistance;
-
-        if (!float.IsInfinity(dist) && dist < 0.5f)
-        {
+        if (agent.hasPath && agent.remainingDistance < 0.5f)
             GoToNextPoint();
-        }
-    }
-
-    void GoToNextPoint()
-    {
-        if (!IsAgentValid()) return;
-        if (patrolPoints == null || patrolPoints.Length == 0) return;
-
-        agent.SetDestination(patrolPoints[currentPoint].position);
-        currentPoint = (currentPoint + 1) % patrolPoints.Length;
     }
 
     void Combat()
     {
         float dist = Vector3.Distance(transform.position, player.position);
 
-        RotateTowards(player.position);
-
         if (dist <= shootDistance)
         {
-            SafeResetPath();
+            agent.ResetPath();
             TryShoot();
         }
         else
@@ -214,9 +209,7 @@ public class EnemyPatrolAdvanced : MonoBehaviour
         if (Time.time < nextFireTime) return;
         nextFireTime = Time.time + fireRate;
 
-        if (playerHealth == null) return;
-
-        animator.SetBool("IsShooting", true);
+        animator.SetBool("isShooting", true);
 
         playerHealth.TakeDamage(damage);
 
@@ -225,40 +218,18 @@ public class EnemyPatrolAdvanced : MonoBehaviour
 
     void StopShoot()
     {
-        animator.SetBool("IsShooting", false);
+        animator.SetBool("isShooting", false);
     }
-
-    // ---------------- SAFE NAVMESH ----------------
 
     void SafeSetDestination(Vector3 pos)
     {
-        if (!IsAgentValid()) return;
-        agent.SetDestination(pos);
+        if (IsAgentValid())
+            agent.SetDestination(pos);
     }
-
-    void SafeResetPath()
-    {
-        if (!IsAgentValid()) return;
-        agent.ResetPath();
-    }
-
-    // ---------------- ANIMACIONES ----------------
 
     void HandleAnimations()
     {
-        int speed = agent.hasPath ? 1 : 0;
-        animator.SetInteger("Speed", speed);
+        animator.SetInteger("Speed", agent.hasPath ? 1 : 0);
         animator.SetBool("IsAggro", state == State.Aggro);
-    }
-
-    void RotateTowards(Vector3 target)
-    {
-        Vector3 dir = (target - transform.position).normalized;
-        dir.y = 0;
-
-        if (dir == Vector3.zero) return;
-
-        Quaternion rot = Quaternion.LookRotation(dir);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rot, Time.deltaTime * 5f);
     }
 }

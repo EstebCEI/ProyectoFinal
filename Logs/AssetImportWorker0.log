@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.10f1 (e35f0c77bd8e) revision 14901004'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario" at "2026-04-16T10:20:58.7701626Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario" at "2026-04-17T16:10:53.2973615Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'es' Physical Memory: 16077 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-16T10:20:58Z
+Date: 2026-04-17T16:10:53Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.10f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Usuario/ProyectosUnity/ProyectoFInal
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59731
+59497
 -licensingIpc
 LicenseClient-Usuario
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/Usuario/ProyectosUnity/ProyectoFInal
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [2712]  Target information:
+Player connection [28316]  Target information:
 
-Player connection [2712]  * "[IP] 26.2.185.209 [Port] 0 [Flags] 2 [Guid] 292885340 [EditorId] 292885340 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H5B11SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28316]  * "[IP] 26.2.185.209 [Port] 0 [Flags] 2 [Guid] 2306460510 [EditorId] 2306460510 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H5B11SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2712]  * "[IP] 192.168.1.132 [Port] 0 [Flags] 2 [Guid] 292885340 [EditorId] 292885340 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H5B11SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [28316]  * "[IP] 192.168.1.132 [Port] 0 [Flags] 2 [Guid] 2306460510 [EditorId] 2306460510 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-H5B11SP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [2712] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [2712] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28316] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28316] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,8 +86,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.01 ms.
+Refreshing native plugins compatible for Editor in 4.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.10f1 (e35f0c77bd8e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Usuario/ProyectosUnity/ProyectoFInal/Assets
@@ -102,53 +102,53 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005502 seconds.
+Registered in 0.006587 seconds.
+- Loaded All Assemblies, in  0.780 seconds
+Native extension for WindowsStandalone target not found
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              0af5a97740b640b290452b37d5c869e9
-  Correlation Id:          900d1f8cedfdd36bb30b3d92fbc2a631
-  External correlation Id: 2697770136594945596
+  Session Id:              6c548b8811fd4c168526bd94b9b5c5f6
+  Correlation Id:          066e97232b3f5ec94707c90f54b6eb4c
+  External correlation Id: 916563465573526685
   Machine Id:              xrbb/UebT4p5QAGp4sjS8aAJfSM=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Usuario" (connect: 0.00s, validation: 0.00s, handshake: 1.32s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario-notifications" at "2026-04-16T10:21:00.0946625Z"
-[Licensing::Module] Licensing Background thread has ended after 1.32s
-- Loaded All Assemblies, in  0.595 seconds
-Native extension for WindowsStandalone target not found
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Usuario" (connect: 0.00s, validation: 0.00s, handshake: 1.83s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Usuario-notifications" at "2026-04-17T16:10:55.1335905Z"
+[Licensing::Module] Licensing Background thread has ended after 1.84s
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.453 seconds
-Domain Reload Profiling: 1040ms
-	BeginReloadAssembly (213ms)
+- Finished resetting the current domain, in  0.661 seconds
+Domain Reload Profiling: 1432ms
+	BeginReloadAssembly (315ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (223ms)
-		LoadAssemblies (203ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (273ms)
+		LoadAssemblies (304ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (219ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (203ms)
+		AnalyzeDomain (269ms)
+			TypeCache.Refresh (267ms)
+				TypeCache.ScanAssembly (250ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (453ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (661ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (417ms)
+		SetupLoadedEditorAssemblies (602ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (98ms)
-			ProcessInitializeOnLoadAttributes (172ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
+			InitializePlatformSupportModulesInManaged (73ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,8 +163,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.834 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.356 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -172,52 +172,184 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.824 seconds
-Domain Reload Profiling: 1644ms
-	BeginReloadAssembly (215ms)
+- Finished resetting the current domain, in  1.572 seconds
+Domain Reload Profiling: 2897ms
+	BeginReloadAssembly (256ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (489ms)
-		LoadAssemblies (372ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (882ms)
+		LoadAssemblies (662ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (225ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (162ms)
-			BuildScriptInfoCaches (42ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (825ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (260ms)
+			BuildScriptInfoCaches (73ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1574ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (718ms)
+		SetupLoadedEditorAssemblies (1336ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (155ms)
-			ProcessInitializeOnLoadAttributes (503ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (13ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (272ms)
+			ProcessInitializeOnLoadAttributes (936ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (27ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 4001 unused Assets / (1.2 MB). Loaded Objects now: 4625.
-Memory consumption went from 109.0 MB to 107.7 MB.
-Total: 6.280900 ms (FindLiveObjects: 0.307500 ms CreateObjectMapping: 0.205100 ms MarkObjects: 4.871500 ms  DeleteObjects: 0.895700 ms)
+Unloading 4002 unused Assets / (1.2 MB). Loaded Objects now: 4626.
+Memory consumption went from 109.2 MB to 108.0 MB.
+Total: 9.851300 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.192900 ms MarkObjects: 7.579600 ms  DeleteObjects: 1.653400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43638.210241 seconds.
-  path: Assets/Scripts/Manager/ComputerInteract.cs
-  artifactKey: Guid(f6d41ec457ec1a944b2cdc3f50dde1cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Manager/ComputerInteract.cs using Guid(f6d41ec457ec1a944b2cdc3f50dde1cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d5e7b43261ca2d31526dfb1b2068324') in 0.0913612 seconds
+  Time since last request: 151040.978242 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(67fce58ceed92d24083ccf819d0a0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(67fce58ceed92d24083ccf819d0a0aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41b9021c30a2ca659d095e9f85e50499') in 0.1403016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.541817 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c391582d739b6e62a5220f35cbb167ac') in 0.0050194 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
+========================================================================
+Received Import Request.
+  Time since last request: 5.894201 seconds.
+  path: Assets/SoundEffects
+  artifactKey: Guid(440614d347ef2c04e8bb4fd02332d949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects using Guid(440614d347ef2c04e8bb4fd02332d949) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28bbd9a125df531928a6ae435806fb7d') in 0.0007306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.901518 seconds.
+  path: Assets/SoundEffects
+  artifactKey: Guid(440614d347ef2c04e8bb4fd02332d949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SoundEffects using Guid(440614d347ef2c04e8bb4fd02332d949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f02932c15d5bef9ba99c355e5473c745') in 0.0359027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.742876 seconds.
+  path: Assets/SoundEffects/212602__pgi__machine-gun-001-loop.ogg
+  artifactKey: Guid(71cc8d64f6b5c6244af40160edffa577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects/212602__pgi__machine-gun-001-loop.ogg using Guid(71cc8d64f6b5c6244af40160edffa577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a29a8fe98bb2f6a1bd74a11bed46b91') in 0.053607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012051 seconds.
+  path: Assets/SoundEffects/metal-gear-item-drop.mp3
+  artifactKey: Guid(418239567722efb48b39249211a79c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects/metal-gear-item-drop.mp3 using Guid(418239567722efb48b39249211a79c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6855c30e85c948a8d6c2470aafc9dff') in 0.0148813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003452 seconds.
+  path: Assets/SoundEffects/477396__nuff3__steps-dirt_2b.ogg
+  artifactKey: Guid(20618f15d74ffd147bf821b80bafdb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects/477396__nuff3__steps-dirt_2b.ogg using Guid(20618f15d74ffd147bf821b80bafdb49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e25b0e0f24082bc6e88f6d079f945582') in 0.0126634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/SoundEffects/emilianodleon-button-ui-sound-effect-395762.mp3
+  artifactKey: Guid(fe54b55759ee0da4ab8bfe31a61e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects/emilianodleon-button-ui-sound-effect-395762.mp3 using Guid(fe54b55759ee0da4ab8bfe31a61e611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79529ec52e271122563ac26192bd69dd') in 0.0133785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SoundEffects/emilianodleon-select-button-ui-395763.mp3
+  artifactKey: Guid(0a19653acd055fc4a9cb2d020efc52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects/emilianodleon-select-button-ui-395763.mp3 using Guid(0a19653acd055fc4a9cb2d020efc52cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51f8363d49b9836d536ffe0288d6282e') in 0.012386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SoundEffects/metal-gear-solid-snake-death-scream-sound-effect_fR1Ryqk.mp3
+  artifactKey: Guid(8122ce47fbc60b4458eca0abaade787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects/metal-gear-solid-snake-death-scream-sound-effect_fR1Ryqk.mp3 using Guid(8122ce47fbc60b4458eca0abaade787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cbe1535860ba1cf8a5fd766ec771472a') in 0.011716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SoundEffects/metal-gear-solid-impressive-snake.mp3
+  artifactKey: Guid(6f630f87bbd21b74cacdef33bf0e708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SoundEffects/metal-gear-solid-impressive-snake.mp3 using Guid(6f630f87bbd21b74cacdef33bf0e708a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09402fe55a4420c55086eaa7473666a1') in 0.0140902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846828 seconds.
+  path: Assets/SoundEffects/metal-gear-item-drop.mp3
+  artifactKey: Guid(418239567722efb48b39249211a79c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SoundEffects/metal-gear-item-drop.mp3 using Guid(418239567722efb48b39249211a79c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d4dbba1503e590a0222f2c15e1cbb72') in 0.1233576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/SoundEffects/metal-gear-solid-snake-death-scream-sound-effect_fR1Ryqk.mp3
+  artifactKey: Guid(8122ce47fbc60b4458eca0abaade787e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SoundEffects/metal-gear-solid-snake-death-scream-sound-effect_fR1Ryqk.mp3 using Guid(8122ce47fbc60b4458eca0abaade787e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e37e41a4190d5f03f61d11d8fbe4fdf') in 0.0507678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/SoundEffects/Silenced Pistol Sound Effect.mp3
+  artifactKey: Guid(c4183615440cb0445b4fd99f6609dfe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SoundEffects/Silenced Pistol Sound Effect.mp3 using Guid(c4183615440cb0445b4fd99f6609dfe1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ef529580f1790b548d238f083dca216') in 0.0448974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/SoundEffects/212602__pgi__machine-gun-001-loop.ogg
+  artifactKey: Guid(71cc8d64f6b5c6244af40160edffa577) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SoundEffects/212602__pgi__machine-gun-001-loop.ogg using Guid(71cc8d64f6b5c6244af40160edffa577) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82e6b818cc2684b1385a4fceef8dda97') in 0.0532447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/SoundEffects/metal-gear-solid-impressive-snake.mp3
+  artifactKey: Guid(6f630f87bbd21b74cacdef33bf0e708a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SoundEffects/metal-gear-solid-impressive-snake.mp3 using Guid(6f630f87bbd21b74cacdef33bf0e708a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a9108880a8c54ffc3a39cf8f9b00a0f') in 0.0520725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/SoundEffects/emilianodleon-select-button-ui-395763.mp3
+  artifactKey: Guid(0a19653acd055fc4a9cb2d020efc52cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SoundEffects/emilianodleon-select-button-ui-395763.mp3 using Guid(0a19653acd055fc4a9cb2d020efc52cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd431ec6fb1b6d906874c2b6d33f39336') in 0.0315556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

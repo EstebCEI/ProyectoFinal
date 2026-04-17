@@ -26,6 +26,10 @@ public class PlayerShoot : MonoBehaviour
     private float nextTimeToShoot = 0f;
     private bool isReloading = false;
 
+    [Header("Sonidos")]
+    [SerializeField] private AudioClip shootSound;
+    [SerializeField] private AudioClip reloadSound;
+
     void Start()
     {
         currentAmmo = maxAmmo;
@@ -72,6 +76,7 @@ public class PlayerShoot : MonoBehaviour
                 return;
             }
 
+            
             Shoot();
 
             currentAmmo--;
@@ -91,6 +96,7 @@ public class PlayerShoot : MonoBehaviour
 
     System.Collections.IEnumerator Reload()
     {
+        SoundManager.Instance.PlaySound(reloadSound, transform, 1f);
         isReloading = true;
 
         Debug.Log("Recargando...");
@@ -115,32 +121,34 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot()
     {
+        SoundManager.Instance.PlaySound(shootSound, transform, 1f);
+
         Camera activeCam = cameraSwitch.isFirstPerson && isAiming
             ? cameraSwitch.firstPerson
             : cameraSwitch.thirdPerson;
 
         if (activeCam == null) return;
 
-        // 🎯 Ray desde cámara
+        // Ray desde cámara
         Ray camRay = activeCam.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
         Vector3 targetPoint;
 
         if (Physics.Raycast(camRay, out RaycastHit camHit, shootDistance))
             targetPoint = camHit.point;
+            
         else
             targetPoint = camRay.origin + camRay.direction * shootDistance;
 
-        // 🔫 Ray desde arma
+        // Ray desde arma
         Vector3 direction = (targetPoint - shootOrigin.position).normalized;
         Ray shootRay = new Ray(shootOrigin.position, direction);
 
         if (Physics.Raycast(shootRay, out RaycastHit hit, shootDistance))
         {
-            // 🔍 Detectar enemigos
+            // Detectar enemigos
             EnemyGuard guard = hit.collider.GetComponent<EnemyGuard>();
             EnemyPatrolAdvanced patrol = hit.collider.GetComponent<EnemyPatrolAdvanced>();
 
-            // 💀 ONE SHOT (CLAVE)
             if (guard != null)
             {
                 guard.TakeDamage(999f);
@@ -163,7 +171,7 @@ public class PlayerShoot : MonoBehaviour
         }
     }
 
-    // 🪦 RAGDOLL
+    // AGDOLL
     void ActivateRagdoll(GameObject enemyGO)
     {
         RagdollController ragdoll = enemyGO.GetComponent<RagdollController>();

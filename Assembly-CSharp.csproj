@@ -62,26 +62,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemigos\EnemyPatrol.cs" />
+    <Compile Include="Assets\Scripts\Manager\SaveSystem\GameData.cs" />
     <Compile Include="Assets\Scripts\Jugador\AimCameraSwitch.cs" />
-    <Compile Include="Assets\Scripts\Manager\BillboardUI.cs" />
+    <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\MenusAndSetting\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerShoot.cs" />
     <Compile Include="Assets\Scripts\Enemigos\EnemyStationaryBehaviour.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Manager\GameData.cs" />
-    <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameplayConditions\GameManager.cs" />
     <Compile Include="Assets\Scripts\Enemigos\RagdollController.cs" />
-    <Compile Include="Assets\Scripts\Manager\TriggerExit.cs" />
-    <Compile Include="Assets\Scripts\Manager\SettingsMenu.cs" />
-    <Compile Include="Assets\Scripts\Manager\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Manager\MenusAndSetting\GameOverScreen.cs" />
     <Compile Include="Assets\Scripts\Jugador\CameraLook.cs" />
+    <Compile Include="Assets\Scripts\Manager\SaveSystem\GameDataJSON.cs" />
+    <Compile Include="Assets\Scripts\Manager\MenusAndSetting\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerRagdoll.cs" />
-    <Compile Include="Assets\Scripts\Manager\GameDataJSON.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\ScriptableObjects\Weapons.cs" />
-    <Compile Include="Assets\Scripts\Manager\GameOverScreen.cs" />
-    <Compile Include="Assets\Scripts\Manager\EnemyData.cs" />
-    <Compile Include="Assets\Scripts\Manager\ComputerInteract.cs" />
-    <Compile Include="Assets\Scripts\Manager\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Manager\SaveSystem\IEnemySerializable.cs" />
+    <Compile Include="Assets\Scripts\Manager\SaveSystem\EnemyData.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameplayConditions\ComputerInteract.cs" />
+    <Compile Include="Assets\Scripts\Manager\MenusAndSetting\SettingsMenu.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameplayConditions\TriggerExit.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameplayConditions\BillboardUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

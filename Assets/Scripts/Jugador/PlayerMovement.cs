@@ -144,11 +144,40 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    void ApplyStance(Stance stance)
+    {
+        switch (stance)
+        {
+            case Stance.Standing:
+                controller.height = standHeight;
+                controller.center = new Vector3(0, standHeight / 2f, 0);
+                m_Animator.SetInteger("PlayerStance", 0);
+                break;
+
+            case Stance.Crouch:
+                controller.height = crouchHeight;
+                controller.center = new Vector3(0, crouchHeight / 2f, 0);
+                m_Animator.SetInteger("PlayerStance", 1);
+                break;
+
+            case Stance.Prone:
+                controller.height = proneHeight;
+                controller.center = new Vector3(0, proneHeight / 2f, 0);
+                m_Animator.SetInteger("PlayerStance", 2);
+                break;
+        }
+    }
+
     public int GetStance()
     {
         return (int)currentStance;
     }
-    
+
+    public void SetStance(int stance)
+    {
+        currentStance = (Stance)stance;
+        ApplyStance(currentStance);
+    }
 
     public void SetDead(bool value)
     {
