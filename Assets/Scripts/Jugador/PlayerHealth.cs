@@ -23,6 +23,9 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private PlayerMovement playerMovement;
 
+    [Header("Sonidos")]
+    [SerializeField] private AudioClip deathScreenSound;
+
     private bool isDead = false;
 
     void Start()
@@ -82,6 +85,7 @@ public class PlayerHealth : MonoBehaviour
             health = 0f;
             UpdateUI();
             Die();
+            SoundManager.Instance.PlaySound(deathScreenSound, transform, 1f);
         }
     }
 

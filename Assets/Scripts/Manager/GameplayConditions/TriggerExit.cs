@@ -2,6 +2,9 @@
 
 public class TriggerExit : MonoBehaviour
 {
+    [Header("Sounds")]
+    [SerializeField] private AudioClip completedSound;
+
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
@@ -10,10 +13,12 @@ public class TriggerExit : MonoBehaviour
 
         if (!GameManager.instance.hasHackedComputer)
         {
-            Debug.Log("🚫 Necesitas hackear el ordenador antes de salir");
+            Debug.Log("Necesitas hackear el ordenador antes de salir");
             return;
         }
 
         GameManager.instance.CompleteMission();
+        if (completedSound != null)
+            AudioSource.PlayClipAtPoint(completedSound, transform.position);
     }
-}
+ }

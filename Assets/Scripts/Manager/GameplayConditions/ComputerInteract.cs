@@ -17,6 +17,9 @@ public class ComputerInteract : MonoBehaviour
     [Header("Animación")]
     public Animator playerAnimator;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip hackFinishSound;
+
     void Start()
     {
         if (hackUI != null)
@@ -90,6 +93,7 @@ public class ComputerInteract : MonoBehaviour
             hackUI.SetActive(false);
 
         GameManager.instance.HackComputer();
+        SoundManager.Instance.PlaySound(hackFinishSound, transform, 1f);
     }
 
     void ContinueHack()

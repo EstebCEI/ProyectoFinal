@@ -31,6 +31,8 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
     private Vector3 lastKnownPosition;
     private bool seesPlayer;
 
+    [SerializeField] AudioClip shootSound;
+
     public bool isDead = false;
 
     enum State { Idle, Aggro, Search }
@@ -177,6 +179,8 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
         {
             agent.ResetPath();
             TryShoot();
+            if (shootSound != null)
+                AudioSource.PlayClipAtPoint(shootSound, transform.position, 1f);
         }
         else
         {
