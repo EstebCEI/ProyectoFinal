@@ -9,7 +9,7 @@ public class AimCameraSwitch : MonoBehaviour
 
     [Header("Offsets")]
     public Vector3 normalOffset = new Vector3(0.6f, 1.5f, -3f);
-    public Vector3 aimingOffset = new Vector3(0.6f, 2.2f, -2f); // 👈 MÁS ALTA
+    public Vector3 aimingOffset = new Vector3(0.6f, 2.2f, -2f);
 
     [Header("Suavizado")]
     public float offsetSmoothSpeed = 8f;
