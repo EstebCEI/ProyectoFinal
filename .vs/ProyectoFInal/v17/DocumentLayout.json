@@ -3,7 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\savesystem\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\enemigos\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigos\\enemypatrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\scriptableobjects\\fsr\\footstepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scriptableobjects\\fsr\\footstepmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\savesystem\\ienemyserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\savesystem\\ienemyserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\menusandsetting\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\menusandsetting\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\gameplayconditions\\triggerexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameplayconditions\\triggerexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jugador\\playershoot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigos\\enemystationarybehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\enemigos\\ragdollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemigos\\ragdollcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\savesystem\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\savesystem\\enemydata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -13,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\savesystem\\gamedatajson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\savesystem\\gamedatajson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\savesystem\\ienemyserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\savesystem\\ienemyserializable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\menusandsetting\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,28 +63,20 @@
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameplayconditions\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\footstep surface reader\\scripts\\indexterrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\footstep surface reader\\scripts\\indexterrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\footstep surface reader\\scripts\\indexterrain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\menusandsetting\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\menusandsetting\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\menusandsetting\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\menusandsetting\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\menusandsetting\\settingsmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\gameplayconditions\\computerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\gameplayconditions\\computerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameplayconditions\\computerinteract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\gameplayconditions\\billboardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\assets\\scripts\\manager\\gameplayconditions\\billboardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameplayconditions\\billboardui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|c:\\users\\usuario\\proyectosunity\\proyectofinal\\assets\\scripts\\manager\\gameplayconditions\\triggerexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB1273D5-7084-9664-FE3A-5A8DBF3C2257}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\manager\\gameplayconditions\\triggerexit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,11 +86,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
+              "Title": "FootstepManager.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\ScriptableObjects\\FSR\\FootstepManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ScriptableObjects\\FSR\\FootstepManager.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\ScriptableObjects\\FSR\\FootstepManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ScriptableObjects\\FSR\\FootstepManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:37:18.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerShoot.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerShoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:37:00.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyStationaryBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigos\\EnemyStationaryBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:36:51.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RagdollController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\RagdollController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\RagdollController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\RagdollController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigos\\RagdollController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:36:50.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyPatrol.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyPatrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemigos\\EnemyPatrol.cs",
+              "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Enemigos\\EnemyPatrol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemigos\\EnemyPatrol.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T09:36:48.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TriggerExit.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\GameplayConditions\\TriggerExit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameplayConditions\\TriggerExit.cs",
@@ -83,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "BillboardUI.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\GameplayConditions\\BillboardUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameplayConditions\\BillboardUI.cs",
@@ -91,12 +176,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\GameplayConditions\\BillboardUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T17:58:30.389Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T17:58:30.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "ComputerInteract.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\GameplayConditions\\ComputerInteract.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameplayConditions\\ComputerInteract.cs",
@@ -104,12 +188,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\GameplayConditions\\ComputerInteract.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T17:58:29.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T17:58:29.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "SettingsMenu.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\MenusAndSetting\\SettingsMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MenusAndSetting\\SettingsMenu.cs",
@@ -122,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "GameOverScreen.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\MenusAndSetting\\GameOverScreen.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MenusAndSetting\\GameOverScreen.cs",
@@ -130,12 +213,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\MenusAndSetting\\GameOverScreen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T17:57:49.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T17:57:49.785Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "IndexTerrain.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Footstep Surface Reader\\Scripts\\IndexTerrain.cs",
               "RelativeDocumentMoniker": "Assets\\Footstep Surface Reader\\Scripts\\IndexTerrain.cs",
@@ -143,12 +225,11 @@
               "RelativeToolTip": "Assets\\Footstep Surface Reader\\Scripts\\IndexTerrain.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T17:54:01.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T17:54:01.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\GameplayConditions\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\GameplayConditions\\GameManager.cs",
@@ -156,12 +237,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\GameplayConditions\\GameManager.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAAAAwMwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T12:53:05.718Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T12:53:05.718Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Jugador\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
@@ -169,12 +249,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Jugador\\PlayerHealth.cs",
               "ViewState": "AgIAACAAAAAAAAAAAIAwwDMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T12:18:05.203Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T12:18:05.203Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "PauseMenu.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\MenusAndSetting\\PauseMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MenusAndSetting\\PauseMenu.cs",
@@ -187,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\MenusAndSetting\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\MenusAndSetting\\MainMenu.cs",
@@ -195,25 +274,24 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\MenusAndSetting\\MainMenu.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAewCEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T17:51:38.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T17:51:38.428Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IEnemySerializable.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\SaveSystem\\IEnemySerializable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SaveSystem\\IEnemySerializable.cs",
               "ToolTip": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\SaveSystem\\IEnemySerializable.cs",
               "RelativeToolTip": "Assets\\Scripts\\Manager\\SaveSystem\\IEnemySerializable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA+wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-20T17:51:34.217Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "GameDataJSON.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\SaveSystem\\GameDataJSON.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SaveSystem\\GameDataJSON.cs",
@@ -221,12 +299,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\SaveSystem\\GameDataJSON.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-20T17:51:30.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-20T17:51:30.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "GameData.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\SaveSystem\\GameData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SaveSystem\\GameData.cs",
@@ -234,12 +311,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Manager\\SaveSystem\\GameData.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAmwCcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T12:13:10.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T12:13:10.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "EnemyData.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\ProyectosUnity\\ProyectoFInal\\Assets\\Scripts\\Manager\\SaveSystem\\EnemyData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Manager\\SaveSystem\\EnemyData.cs",

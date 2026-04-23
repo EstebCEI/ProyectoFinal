@@ -68,9 +68,6 @@ public class PauseMenu : MonoBehaviour
         );
 
         GameDataJSON.SaveGameData(data);
-
-        Debug.Log("PARTIDA GUARDADA");
-        Debug.Log("Ubicacion del archivo: " + GameDataJSON.GetPath());
     }
 
     List<EnemyData> SaveEnemies()

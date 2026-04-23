@@ -2,6 +2,7 @@
 using UnityEngine.SceneManagement;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class GameManager : MonoBehaviour
 
     [Header("Escenas")]
     [SerializeField] private string mainMenuSceneName = "MainMenu";
+
+    [Header("Texto Objetivo")]
+    [SerializeField] private TMP_Text missionText; // Lo asignas tú en el Inspector
 
     void Awake()
     {
@@ -42,11 +46,13 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         ApplySceneState();
+        UpdateMissionText();
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         ApplySceneState();
+        UpdateMissionText();
 
         if (loadGame)
         {
@@ -129,6 +135,8 @@ public class GameManager : MonoBehaviour
         missionCompleted = data.missionCompleted;
 
         LoadEnemies(data.enemies);
+
+        UpdateMissionText();
     }
 
     void LoadEnemies(List<EnemyData> enemies)
@@ -170,6 +178,17 @@ public class GameManager : MonoBehaviour
         if (hasHackedComputer) return;
 
         hasHackedComputer = true;
+        UpdateMissionText();
+    }
+
+    void UpdateMissionText()
+    {
+        if (missionText == null) return;
+
+        if (!hasHackedComputer)
+            missionText.text = "Hackea el ordenador enemigo";
+        else
+            missionText.text = "Escapa de la base enemiga";
     }
 
     public void CompleteMission()
@@ -196,6 +215,8 @@ public class GameManager : MonoBehaviour
         missionCompleted = false;
         loadGame = false;
         Time.timeScale = 1f;
+
+        UpdateMissionText();
     }
 
     public void QuitGame()
