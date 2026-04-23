@@ -5,6 +5,9 @@ public class TriggerExit : MonoBehaviour
     [Header("Sounds")]
     [SerializeField] private AudioClip completedSound;
 
+    [Header("Pantalla fin")]
+    [SerializeField] private GameObject endScreen;
+
     private void OnTriggerEnter(Collider other)
     {
         if (!other.CompareTag("Player")) return;
@@ -20,5 +23,8 @@ public class TriggerExit : MonoBehaviour
         GameManager.instance.CompleteMission();
         if (completedSound != null)
             AudioSource.PlayClipAtPoint(completedSound, transform.position);
+
+        if (endScreen != null)
+            endScreen.SetActive(true);
     }
  }

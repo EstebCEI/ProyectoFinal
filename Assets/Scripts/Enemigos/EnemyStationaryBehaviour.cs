@@ -7,6 +7,7 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
 {
     public string enemyID;
 
+    [Header("Referencias")]
     public Transform player;
     public PlayerHealth playerHealth;
     public Transform guardCenter;
@@ -14,35 +15,42 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
     private NavMeshAgent agent;
     private Animator animator;
 
+    [Header("Vida")]
     public float maxHealth = 100f;
     private float health;
 
+    [Header("Zona")]
     public float guardRadius = 10f;
 
+    [Header("Visión")]
     public float viewDistance = 12f;
     public float viewAngle = 90f;
 
+    [Header("Combate")]
     public float shootDistance = 8f;
 
+    [Header("Disparo")]
     public float damage = 10f;
     public float fireRate = 1.2f;
     private float nextFireTime;
+    [SerializeField] AudioClip ShootSound;
 
     private Vector3 lastKnownPosition;
     private bool seesPlayer;
 
-    [SerializeField] AudioClip shootSound;
-
     public bool isDead = false;
 
-    enum State { Idle, Aggro, Search }
+    enum State { Idle, Alert, Aggro, Search }
     State state = State.Idle;
 
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+    }
 
+    void Start()
+    {
         health = maxHealth;
     }
 
@@ -60,10 +68,16 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
     {
         transform.position = data.position;
         health = data.health;
-        isDead = data.isDead;
 
-        if (isDead)
+        if (data.isDead || health <= 0f)
+        {
+            isDead = false;
             Die();
+        }
+        else
+        {
+            isDead = false;
+        }
     }
 
     void Update()
@@ -75,6 +89,13 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
         UpdateState();
         HandleMovement();
         HandleAnimations();
+    }
+
+    bool IsAgentValid()
+    {
+        return agent != null &&
+               agent.isActiveAndEnabled &&
+               agent.isOnNavMesh;
     }
 
     public void TakeDamage(float dmg)
@@ -96,25 +117,31 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
 
         isDead = true;
 
-        agent.ResetPath();
-        agent.enabled = false;
+        if (agent != null && agent.enabled)
+        {
+            agent.ResetPath();
+            agent.enabled = false;
+        }
 
-        animator.CrossFade("Death", 0.1f);
+        if (animator != null)
+        {
+            animator.SetBool("IsAggro", false);
+            animator.SetBool("isShooting", false);
+            animator.CrossFade("Death", 0.05f);
+        }
 
-        GetComponent<Collider>().enabled = false;
-    }
+        Collider col = GetComponent<Collider>();
+        if (col != null)
+            col.enabled = false;
 
-    bool IsAgentValid()
-    {
-        return agent != null &&
-               agent.isActiveAndEnabled &&
-               agent.isOnNavMesh;
+        RagdollController rag = GetComponent<RagdollController>();
+        if (rag != null)
+            rag.EnableRagdoll();
     }
 
     void CheckVision()
     {
         seesPlayer = false;
-
         if (player == null) return;
 
         Vector3 dir = player.position - transform.position;
@@ -141,8 +168,13 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
     void UpdateState()
     {
         if (state == State.Idle && seesPlayer) state = State.Aggro;
-        if (state == State.Aggro && !seesPlayer) state = State.Search;
-        if (state == State.Search && seesPlayer) state = State.Aggro;
+        if (state == State.Alert && seesPlayer) state = State.Aggro;
+
+        if (state == State.Aggro && !seesPlayer)
+            state = State.Search;
+
+        if (state == State.Search && seesPlayer)
+            state = State.Aggro;
     }
 
     void HandleMovement()
@@ -165,10 +197,17 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
 
     void StayInZone()
     {
-        if (Vector3.Distance(transform.position, guardCenter.position) > guardRadius)
+        if (!IsAgentValid()) return;
+
+        if (guardCenter != null &&
+            Vector3.Distance(transform.position, guardCenter.position) > guardRadius)
+        {
             SafeSetDestination(guardCenter.position);
+        }
         else
+        {
             agent.ResetPath();
+        }
     }
 
     void Combat()
@@ -179,8 +218,6 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
         {
             agent.ResetPath();
             TryShoot();
-            if (shootSound != null)
-                AudioSource.PlayClipAtPoint(shootSound, transform.position, 1f);
         }
         else
         {
@@ -193,15 +230,21 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
         if (Time.time < nextFireTime) return;
         nextFireTime = Time.time + fireRate;
 
-        animator.SetBool("isShooting", true);
-        playerHealth.TakeDamage(damage);
+        if (animator != null)
+            animator.SetBool("isShooting", true);
+
+        if (playerHealth != null)
+            playerHealth.TakeDamage(damage);
 
         Invoke(nameof(StopShoot), 0.2f);
+            if (ShootSound != null)
+                AudioSource.PlayClipAtPoint(ShootSound, transform.position);
     }
 
     void StopShoot()
     {
-        animator.SetBool("isShooting", false);
+        if (animator != null)
+            animator.SetBool("isShooting", false);
     }
 
     void SafeSetDestination(Vector3 pos)
@@ -212,6 +255,8 @@ public class EnemyGuard : MonoBehaviour, IEnemySaveable
 
     void HandleAnimations()
     {
+        if (animator == null || agent == null) return;
+
         animator.SetInteger("Speed", agent.hasPath ? 1 : 0);
         animator.SetBool("IsAggro", state == State.Aggro);
     }

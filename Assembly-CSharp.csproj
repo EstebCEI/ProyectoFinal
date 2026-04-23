@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Manager\SaveSystem\GameData.cs" />
     <Compile Include="Assets\Scripts\Jugador\AimCameraSwitch.cs" />
     <Compile Include="Assets\Footstep Surface Reader\Demo scene\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\FSR\FootstepManager.cs" />
     <Compile Include="Assets\Footstep Surface Reader\Scripts\IndexTerrain.cs" />
     <Compile Include="Assets\Scripts\Manager\SoundManager.cs" />
     <Compile Include="Assets\Scripts\Manager\MenusAndSetting\PauseMenu.cs" />
@@ -78,11 +79,11 @@
     <Compile Include="Assets\Footstep Surface Reader\Scripts\FSR_TerrainSurface.cs" />
     <Compile Include="Assets\Scripts\Jugador\CameraLook.cs" />
     <Compile Include="Assets\Scripts\Manager\SaveSystem\GameDataJSON.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObjects\Weapons (UNUSED)\Weapons.cs" />
     <Compile Include="Assets\Footstep Surface Reader\Scripts\FSR_SimpleSurface.cs" />
     <Compile Include="Assets\Scripts\Manager\MenusAndSetting\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerRagdoll.cs" />
     <Compile Include="Assets\Scripts\Jugador\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObjects\Weapons.cs" />
     <Compile Include="Assets\Scripts\Manager\SaveSystem\IEnemySerializable.cs" />
     <Compile Include="Assets\Scripts\Manager\SaveSystem\EnemyData.cs" />
     <Compile Include="Assets\Footstep Surface Reader\Scripts\FSR_Player.cs" />

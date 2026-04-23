@@ -31,6 +31,9 @@ public class ComputerInteract : MonoBehaviour
         if (player == null) return;
         if (GameManager.instance == null) return;
 
+        if (GameManager.instance.hasHackedComputer)
+            return;
+
         float dist = Vector3.Distance(player.position, transform.position);
         bool inRange = dist <= interactDistance;
 
@@ -84,8 +87,8 @@ public class ComputerInteract : MonoBehaviour
     void CompleteHack()
     {
         isHacking = false;
+        currentHackTime = 0f;
 
-        // PARAR ANIMACIÓN
         if (playerAnimator != null)
             playerAnimator.SetBool("IsHacking", false);
 
@@ -93,6 +96,7 @@ public class ComputerInteract : MonoBehaviour
             hackUI.SetActive(false);
 
         GameManager.instance.HackComputer();
+
         SoundManager.Instance.PlaySound(hackFinishSound, transform, 1f);
     }
 
@@ -108,4 +112,6 @@ public class ComputerInteract : MonoBehaviour
             CompleteHack();
         }
     }
+
+
 }

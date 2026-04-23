@@ -49,7 +49,7 @@ public class PlayerHealth : MonoBehaviour
 
         HandleRegen();
         UpdateUI();
-        DebugDamage();
+        // DebugDamage();
     }
 
     void UpdateUI()
@@ -140,6 +140,7 @@ public class PlayerHealth : MonoBehaviour
             healthSlider.value = health;
     }
 
+    /*
     void DebugDamage()
     {
         var keyboard = Keyboard.current;
@@ -147,5 +148,10 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(20f);
         }
+    }*/
+
+    public float GetHealth()
+    {
+        return health;
     }
 }

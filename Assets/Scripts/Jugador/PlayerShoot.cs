@@ -99,14 +99,12 @@ public class PlayerShoot : MonoBehaviour
         SoundManager.Instance.PlaySound(reloadSound, transform, 1f);
         isReloading = true;
 
-        Debug.Log("Recargando...");
 
         yield return new WaitForSeconds(1f);
 
         currentAmmo = maxAmmo;
         isReloading = false;
 
-        Debug.Log("Recarga completa");
 
         UpdateAmmoUI();
     }
@@ -171,7 +169,7 @@ public class PlayerShoot : MonoBehaviour
         }
     }
 
-    // AGDOLL
+    // RAGDOLL
     void ActivateRagdoll(GameObject enemyGO)
     {
         RagdollController ragdoll = enemyGO.GetComponent<RagdollController>();

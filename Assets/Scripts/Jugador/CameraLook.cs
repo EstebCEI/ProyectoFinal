@@ -34,7 +34,6 @@ public class CameraLook : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
 
-        // Inicializar altura correctamente
         if (player != null)
             currentHeight = standCameraHeight;
     }

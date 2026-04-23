@@ -9,7 +9,7 @@ public class RagdollController : MonoBehaviour
 
     private Animator animator;
     private NavMeshAgent agent;
-    private MonoBehaviour enemyAI; // tu script EnemyAI
+    private MonoBehaviour enemyAI;
 
     void Start()
     {
@@ -18,7 +18,7 @@ public class RagdollController : MonoBehaviour
 
         animator = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        enemyAI = GetComponent<MonoBehaviour>(); // o EnemyAI si quieres directo
+        enemyAI = GetComponent<MonoBehaviour>();
 
         DisableRagdoll();
     }
@@ -66,16 +66,16 @@ public class RagdollController : MonoBehaviour
         if (animator != null)
             animator.enabled = true;
     }
-    void DebugDamage()
+    /*void DebugDamage()
     {
         var keyboard = Keyboard.current;
         if (keyboard != null && keyboard.lKey.wasPressedThisFrame)
         {
             EnableRagdoll();
         }
-    }
+    }*/
     private void Update()
     {
-        DebugDamage();
+        // DebugDamage();
     }
 }

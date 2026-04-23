@@ -3156,6 +3156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1264464041}
   - component: {fileID: 1264464040}
+  - component: {fileID: 1264464042}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3177,6 +3178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   hasHackedComputer: 0
   missionCompleted: 0
+  mainMenuSceneName: MainMenu
 --- !u!4 &1264464041
 Transform:
   m_ObjectHideFlags: 0
@@ -3192,6 +3194,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1264464042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264464039}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 023508966ea2068459e8d0d4da8494e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+  gameSceneName: MainGame
+  mainMenuUI: {fileID: 829965987}
+  settingsMenuUI: {fileID: 1048169292}
+  continueButton: {fileID: 0}
+  continueText: {fileID: 0}
+  disabledTextColor: {r: 0.43529412, g: 0.52156866, b: 0.43529412, a: 1}
+  endScreen: {fileID: 0}
 --- !u!4 &1343166192 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2563496969622287784, guid: 0850787d529d3e0429a3f5aee40b8c76, type: 3}
@@ -3378,7 +3399,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1865379277}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
@@ -4645,6 +4666,10 @@ MonoBehaviour:
   gameSceneName: MainGame
   mainMenuUI: {fileID: 829965987}
   settingsMenuUI: {fileID: 1048169292}
+  continueButton: {fileID: 1108141883}
+  continueText: {fileID: 1219875502}
+  disabledTextColor: {r: 0.43529412, g: 0.52156866, b: 0.43529412, a: 1}
+  endScreen: {fileID: 0}
 --- !u!1 &1895876458
 GameObject:
   m_ObjectHideFlags: 0

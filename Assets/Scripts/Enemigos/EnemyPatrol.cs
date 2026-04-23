@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿// EnemyPatrolAdvanced.cs
+
+using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -29,6 +31,7 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
     public float shootDistance = 10f;
     public float fireRate = 1.5f;
     private float nextFireTime;
+    [SerializeField]private AudioClip shootSound;
 
     private Vector3 lastKnownPosition;
     private bool seesPlayer;
@@ -38,13 +41,15 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
     enum State { Patrol, Alert, Aggro, Search }
     State state = State.Patrol;
 
-    void Start()
+    void Awake()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
+    }
 
+    void Start()
+    {
         health = maxHealth;
-
         GoToNextPoint();
     }
 
@@ -62,10 +67,16 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
     {
         transform.position = data.position;
         health = data.health;
-        isDead = data.isDead;
 
-        if (isDead)
+        if (data.isDead || health <= 0f)
+        {
+            isDead = false;
             Die();
+        }
+        else
+        {
+            isDead = false;
+        }
     }
 
     void Update()
@@ -98,7 +109,7 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
 
         isDead = true;
 
-        if (agent != null)
+        if (agent != null && agent.enabled)
         {
             agent.ResetPath();
             agent.enabled = false;
@@ -108,12 +119,16 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
         {
             animator.SetBool("IsAggro", false);
             animator.SetBool("isShooting", false);
-            animator.CrossFade("Death", 0.1f);
+            animator.CrossFade("Death", 0.05f);
         }
 
         Collider col = GetComponent<Collider>();
         if (col != null)
             col.enabled = false;
+
+        RagdollController rag = GetComponent<RagdollController>();
+        if (rag != null)
+            rag.EnableRagdoll();
     }
 
     bool IsAgentValid()
@@ -126,7 +141,7 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
     void GoToNextPoint()
     {
         if (!IsAgentValid()) return;
-        if (patrolPoints.Length == 0) return;
+        if (patrolPoints == null || patrolPoints.Length == 0) return;
 
         agent.SetDestination(patrolPoints[currentPoint].position);
         currentPoint = (currentPoint + 1) % patrolPoints.Length;
@@ -211,14 +226,19 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
 
         animator.SetBool("isShooting", true);
 
-        playerHealth.TakeDamage(damage);
+        if (playerHealth != null)
+            playerHealth.TakeDamage(damage);
 
+        if (shootSound != null)
+            AudioSource.PlayClipAtPoint(shootSound, transform.position);
         Invoke(nameof(StopShoot), 0.2f);
+
     }
 
     void StopShoot()
     {
-        animator.SetBool("isShooting", false);
+        if (animator != null)
+            animator.SetBool("isShooting", false);
     }
 
     void SafeSetDestination(Vector3 pos)
@@ -229,6 +249,8 @@ public class EnemyPatrolAdvanced : MonoBehaviour, IEnemySaveable
 
     void HandleAnimations()
     {
+        if (animator == null || agent == null) return;
+
         animator.SetInteger("Speed", agent.hasPath ? 1 : 0);
         animator.SetBool("IsAggro", state == State.Aggro);
     }

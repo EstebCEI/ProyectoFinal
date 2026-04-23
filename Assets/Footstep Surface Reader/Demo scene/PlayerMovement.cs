@@ -7,7 +7,6 @@ namespace FSR
         [SerializeField] private Rigidbody _rigidbody;
         [SerializeField] private Camera _camera;
         [SerializeField] private float speed = 1;
-        [SerializeField] private float jumpForce = 1;
         [SerializeField] private float sensitivity = 1;
         [SerializeField] private FSR_Player fSR_Player;
         [SerializeField] private float stepfrequency = 0.5f;
@@ -38,19 +37,15 @@ namespace FSR
 
             inputDirection.Normalize();
 
-            _rigidbody.velocity = transform.TransformDirection(new Vector3(inputDirection.x, _rigidbody.velocity.y / speed, inputDirection.y)) * speed;
+            _rigidbody.linearVelocity = transform.TransformDirection(new Vector3(inputDirection.x, _rigidbody.linearVelocity.y / speed, inputDirection.y)) * speed;
 
 
-            if (Input.GetKey(KeyCode.Space))
-            {
-                _rigidbody.AddForce(Vector3.up * jumpForce);
-            }
         }
 
         private void Update()
         {
             stepTimer += Time.deltaTime;
-            if (stepTimer > stepfrequency && _rigidbody.velocity.magnitude > 0.1f)
+            if (stepTimer > stepfrequency && _rigidbody.linearVelocity.magnitude > 0.1f)
             {
                 stepTimer = 0;
                 fSR_Player.step();

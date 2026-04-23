@@ -1,3 +1,5 @@
+// NO USADO
+
 using UnityEngine;
 
 public class PlayerRagdoll : MonoBehaviour

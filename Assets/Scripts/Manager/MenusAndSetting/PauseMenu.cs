@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -14,6 +15,9 @@ public class PauseMenu : MonoBehaviour
     public PlayerMovement playerMovement;
 
     public static bool isPaused;
+
+    [Header("Otros")]
+    [SerializeField] private GameObject endScreen;
 
     void Update()
     {
@@ -30,6 +34,7 @@ public class PauseMenu : MonoBehaviour
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+
         MenuPausa.SetActive(true);
         isPaused = true;
         Time.timeScale = 0f;
@@ -39,6 +44,7 @@ public class PauseMenu : MonoBehaviour
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
+
         MenuPausa.SetActive(false);
         isPaused = false;
         Time.timeScale = 1f;
@@ -46,10 +52,14 @@ public class PauseMenu : MonoBehaviour
 
     public void Save()
     {
-        Debug.Log("Saving game...");
-        Debug.Log(Application.persistentDataPath);
+        if (!isPaused)
+        {
+            Debug.LogWarning("Debes pausar el juego para guardar");
+            return;
+        }
+
         GameData data = new GameData(
-            playerHealth.health,
+            playerHealth.GetHealth(),
             player.position,
             playerMovement.GetStance(),
             GameManager.instance.hasHackedComputer,
@@ -58,13 +68,18 @@ public class PauseMenu : MonoBehaviour
         );
 
         GameDataJSON.SaveGameData(data);
+
+        Debug.Log("PARTIDA GUARDADA");
+        Debug.Log("Ubicacion del archivo: " + GameDataJSON.GetPath());
     }
 
-    System.Collections.Generic.List<EnemyData> SaveEnemies()
+    List<EnemyData> SaveEnemies()
     {
-        System.Collections.Generic.List<EnemyData> list = new System.Collections.Generic.List<EnemyData>();
+        List<EnemyData> list = new List<EnemyData>();
 
-        foreach (MonoBehaviour mb in FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None))
+        var all = Object.FindObjectsByType<MonoBehaviour>(FindObjectsSortMode.None);
+
+        foreach (var mb in all)
         {
             if (mb is IEnemySaveable enemy)
             {
@@ -83,6 +98,10 @@ public class PauseMenu : MonoBehaviour
 
     public void ExitGame()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(mainMenu);
+
+        if (endScreen != null)
+            endScreen.SetActive(false);
     }
 }

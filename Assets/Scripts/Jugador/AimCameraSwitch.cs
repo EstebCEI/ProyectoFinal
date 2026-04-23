@@ -27,7 +27,6 @@ public class AimCameraSwitch : MonoBehaviour
     [Header("Rotación")]
     public float playerRotateSpeed = 10f;
 
-    // 👇 ESTE ES EL OFFSET REAL QUE USARÁ LA CÁMARA
     public Vector3 currentOffset { get; private set; }
 
     void Start()
@@ -72,12 +71,10 @@ public class AimCameraSwitch : MonoBehaviour
         }
     }
 
-    // 🔥 CLAVE: calculamos offset aquí
     void HandleOffset()
     {
         Vector3 targetOffset = normalOffset;
 
-        // 👇 SOLO subir cámara si NO es primera persona
         if (isAiming && !isFirstPerson)
         {
             targetOffset = aimingOffset;
